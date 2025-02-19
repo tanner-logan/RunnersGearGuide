@@ -2,10 +2,12 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import numpy as np
+import tensorflow as tf
+from sklearn.preprocessing import OneHotEncoder
 import joblib
 
 # Load the trained model and encoder
-model = joblib.load("model.pkl")
+model = tf.keras.models.load_model("outfit_recommendation_model.h5")
 encoder = joblib.load("encoder.pkl")
 
 app = FastAPI()
@@ -30,8 +32,9 @@ async def recommend_outfit(request: OutfitRequest):
     try:
         input_data = [[request.body_type, request.color_preference, request.activity_level]]
         input_encoded = encoder.transform(input_data).toarray()
-        recommended_outfit_id = model.predict(input_encoded)[0]
-        return {"recommended_outfit_id": int(recommended_outfit_id)}
+        predicted_outfit = model.predict(np.array(input_encoded))
+        recommended_outfit_id = int(np.argmax(predicted_outfit))  # Assuming softmax output
+        return {"recommended_outfit_id": recommended_outfit_id}
     except Exception as e:
         return {"error": str(e)}
 
