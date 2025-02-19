@@ -1,0 +1,4 @@
+encoder.pkl
+outfit_recommendation_model.h5
+outfits.csv
+train_model.py
