@@ -1,0 +1,102 @@
+item_id,brand,sex,color,price,type,length,pockets,liner,thermal
+1,Nike,male,black,50.0,shorts,5,True,True,False
+2,New Balance,female,yellow,60.5,shorts,5,True,False,False
+3,Saucony,female,red,73.72,tights,NONE,False,False,True
+4,Under Armour,male,red,93.54,tights,NONE,True,False,False
+5,New Balance,female,ivory,61.2,pants,NONE,False,False,False
+6,New Balance,female,white,68.19,shorts,3,True,False,False
+7,Brooks,female,yellow,69.36,tights,NONE,False,False,True
+8,Brooks,male,blue,66.15,tights,NONE,False,False,False
+9,Asics,male,orange,59.75,tights,NONE,False,False,True
+10,Hoka,male,pink,41.96,shorts,5,False,False,False
+11,Patagonia,female,orange,54.64,shorts,5,False,True,False
+12,Adidas,female,yellow,70.14,pants,NONE,False,False,False
+13,Adidas,female,ivory,50.25,shorts,3,True,False,False
+14,Brooks,female,red,64.88,tights,NONE,False,False,False
+15,New Balance,male,yellow,59.5,tights,NONE,True,False,True
+16,Adidas,female,yellow,83.48,tights,NONE,True,False,True
+17,Adidas,female,brown,86.99,pants,NONE,True,False,False
+18,Asics,female,pink,77.58,tights,NONE,False,False,True
+19,Under Armour,female,orange,76.94,tights,NONE,False,False,True
+20,Saucony,male,white,77.1,pants,NONE,False,False,True
+21,Salomon,male,blue,82.44,pants,NONE,False,False,False
+22,Saucony,female,orange,70.0,shorts,7,True,True,False
+23,Nike,male,beige,46.79,shorts,7,False,False,False
+24,Under Armour,female,red,56.51,shorts,7,False,True,False
+25,Under Armour,male,pink,66.57,tights,NONE,True,False,False
+26,Adidas,female,orange,84.69,tights,NONE,False,False,True
+27,Brooks,female,pink,77.7,pants,NONE,True,False,True
+28,Hoka,male,beige,65.62,tights,NONE,True,False,True
+29,Brooks,female,ivory,58.88,pants,NONE,True,False,True
+30,Under Armour,male,white,57.79,tights,NONE,True,False,True
+31,Patagonia,female,pink,47.92,shorts,5,True,True,False
+32,Adidas,male,ivory,79.88,tights,NONE,True,False,True
+33,Salomon,male,orange,74.49,pants,NONE,True,False,False
+34,Under Armour,female,orange,80.27,pants,NONE,False,False,True
+35,Under Armour,male,red,55.9,shorts,7,False,False,False
+36,New Balance,female,red,76.72,tights,NONE,True,False,True
+37,Under Armour,female,beige,78.83,tights,NONE,False,False,True
+38,Hoka,female,grey,81.94,pants,NONE,False,False,False
+39,Hoka,male,black,78.61,pants,NONE,True,False,True
+40,Adidas,female,ivory,74.87,tights,NONE,True,False,True
+41,Under Armour,female,red,66.16,pants,NONE,True,False,False
+42,Nike,female,ivory,32.53,shorts,7,True,False,False
+43,Under Armour,female,red,74.82,tights,NONE,True,False,False
+44,Under Armour,female,pink,46.69,shorts,3,True,False,False
+45,Patagonia,female,yellow,62.05,shorts,3,True,True,False
+46,Salomon,male,brown,59.61,pants,NONE,True,False,True
+47,Patagonia,male,black,90.86,pants,NONE,True,False,False
+48,Under Armour,female,black,59.24,tights,NONE,True,False,True
+49,Under Armour,female,orange,80.29,pants,NONE,True,False,False
+50,Under Armour,male,green,88.73,pants,NONE,False,False,False
+51,Salomon,female,grey,61.05,tights,NONE,True,False,True
+52,Salomon,female,orange,82.21,pants,NONE,False,False,True
+53,Adidas,male,ivory,48.66,pants,NONE,True,False,True
+54,Adidas,male,white,60.74,shorts,7,True,False,False
+55,Asics,female,black,34.56,pants,NONE,True,False,False
+56,Adidas,female,grey,52.24,shorts,5,False,True,False
+57,Hoka,male,brown,74.29,tights,NONE,True,False,True
+58,Saucony,male,orange,47.28,shorts,3,True,False,False
+59,Saucony,female,beige,73.6,pants,NONE,True,False,True
+60,Asics,female,pink,57.89,tights,NONE,False,False,False
+61,Saucony,male,black,47.26,shorts,5,True,True,False
+62,New Balance,female,blue,65.42,tights,NONE,True,False,False
+63,Salomon,male,yellow,70.07,tights,NONE,True,False,True
+64,Patagonia,female,orange,39.95,shorts,7,False,False,False
+65,Saucony,male,ivory,45.41,pants,NONE,False,False,False
+66,Patagonia,female,grey,63.11,pants,NONE,True,False,False
+67,Adidas,male,brown,74.75,pants,NONE,True,False,True
+68,Salomon,female,ivory,73.38,pants,NONE,True,False,False
+69,Saucony,female,orange,56.73,shorts,5,True,True,False
+70,Adidas,male,beige,42.08,shorts,3,False,False,False
+71,Hoka,male,pink,85.63,pants,NONE,False,False,True
+72,Adidas,female,black,73.93,pants,NONE,False,False,True
+73,New Balance,male,red,55.62,pants,NONE,False,False,False
+74,Asics,male,red,71.14,tights,NONE,True,False,True
+75,Brooks,male,white,107.05,pants,NONE,True,False,False
+76,Under Armour,male,orange,92.45,pants,NONE,True,False,True
+77,Under Armour,female,beige,55.37,pants,NONE,True,False,True
+78,Patagonia,male,brown,54.24,shorts,5,True,False,False
+79,Nike,male,pink,69.89,tights,NONE,True,False,False
+80,Patagonia,male,orange,49.15,shorts,3,True,True,False
+81,Saucony,female,ivory,58.92,pants,NONE,True,False,False
+82,New Balance,female,blue,94.08,pants,NONE,True,False,False
+83,Salomon,female,green,45.84,shorts,5,True,False,False
+84,Under Armour,male,brown,72.7,tights,NONE,False,False,False
+85,Brooks,male,black,81.3,pants,NONE,False,False,True
+86,Under Armour,male,pink,45.14,shorts,5,False,True,False
+87,Brooks,female,yellow,47.27,shorts,5,True,True,False
+88,Adidas,male,brown,69.84,pants,NONE,True,False,True
+89,Patagonia,male,yellow,70.19,tights,NONE,False,False,True
+90,Patagonia,male,brown,67.79,tights,NONE,False,False,False
+91,Under Armour,female,green,56.73,shorts,3,False,False,False
+92,Hoka,male,yellow,69.0,pants,NONE,False,False,True
+93,Hoka,female,black,76.91,tights,NONE,False,False,True
+94,Adidas,male,beige,57.57,shorts,5,True,False,False
+95,Under Armour,female,white,55.33,tights,NONE,True,False,True
+96,Hoka,male,green,84.12,tights,NONE,False,False,True
+97,Brooks,female,ivory,80.44,pants,NONE,False,False,False
+98,New Balance,male,green,62.34,pants,NONE,False,False,True
+99,Asics,female,brown,47.37,shorts,3,False,True,False
+100,Brooks,male,blue,62.76,shorts,7,True,False,False
+101,Brooks,female,ivory,44.17,pants,NONE,True,False,True

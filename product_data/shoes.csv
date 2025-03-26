@@ -1,0 +1,103 @@
+item_id,sex,brand,color,price,cushioning,stability,midsole_drop,wide_toe_box,wide_foot,narrow_foot,lightweight
+1,male,Nike,white,120.0,max,stability,neutral,True,True,False,False
+2,female,Hoka,black,130.0,moderate,neutral,max,False,False,True,True
+3,male,Hoka,yellow,121.3,moderate,neutral,max,True,True,False,True
+4,female,Adidas,green,116.43,minimal,stability,max,True,False,False,True
+5,male,Mizuno,white,119.4,moderate,stability,max,False,False,False,True
+6,male,Adidas,white,119.59,moderate,neutral,minimal,True,True,False,True
+7,female,Hoka,blue,145.45,minimal,neutral,neutral,False,True,False,True
+8,male,Nike,black,121.09,max,neutral,neutral,True,False,True,False
+9,male,Nike,red,113.31,moderate,stability,minimal,False,False,False,True
+10,female,Asics,ivory,114.48,max,stability,max,True,False,True,True
+11,male,New Balance,grey,134.53,max,stability,minimal,True,True,False,True
+12,male,Altra,grey,114.62,max,neutral,neutral,False,True,True,False
+13,male,Nike,green,110.42,max,stability,neutral,False,False,False,True
+14,male,Saucony,ivory,112.58,minimal,stability,max,False,True,False,True
+15,female,Altra,red,138.67,minimal,stability,neutral,False,True,True,False
+16,male,Hoka,ivory,115.22,moderate,neutral,minimal,True,False,True,False
+17,female,Adidas,black,125.8,moderate,stability,neutral,False,False,True,True
+18,male,Mizuno,brown,112.4,moderate,neutral,max,False,False,True,True
+19,female,Altra,beige,127.32,minimal,neutral,minimal,True,True,False,True
+20,male,Hoka,beige,137.72,moderate,stability,max,False,False,False,False
+21,female,Saucony,pink,121.9,minimal,neutral,minimal,False,True,False,True
+22,female,Adidas,green,101.09,minimal,neutral,neutral,True,False,True,False
+23,female,Altra,black,160.0,moderate,neutral,neutral,False,True,False,False
+24,female,Adidas,yellow,119.95,minimal,stability,minimal,False,False,True,False
+25,male,Asics,white,113.92,minimal,neutral,neutral,True,False,True,False
+26,male,New Balance,pink,103.68,max,neutral,neutral,False,False,True,False
+27,male,Asics,orange,121.49,moderate,stability,minimal,True,True,True,True
+28,male,New Balance,beige,100.27,moderate,neutral,max,False,True,True,False
+29,female,Adidas,orange,100.0,minimal,stability,minimal,False,True,True,False
+30,female,New Balance,brown,110.18,moderate,stability,neutral,True,True,True,False
+31,female,Mizuno,green,100.0,moderate,stability,max,True,False,True,True
+32,male,Altra,grey,100.0,moderate,stability,neutral,True,False,False,False
+33,female,Mizuno,ivory,129.03,moderate,neutral,max,False,False,False,False
+34,male,Asics,grey,100.0,moderate,neutral,neutral,False,False,False,False
+35,male,Asics,pink,120.66,max,neutral,neutral,True,False,True,False
+36,male,Hoka,yellow,109.88,moderate,neutral,minimal,True,True,False,False
+37,male,Nike,blue,100.0,minimal,stability,max,True,False,True,True
+38,female,Altra,blue,113.27,max,neutral,minimal,True,False,False,False
+39,female,Asics,ivory,110.54,minimal,stability,max,False,True,True,True
+40,male,Mizuno,black,117.32,max,stability,minimal,True,False,True,False
+41,male,Saucony,red,122.06,max,stability,max,True,False,True,True
+42,female,Saucony,blue,131.13,minimal,stability,neutral,True,True,False,False
+43,female,Asics,pink,133.33,max,neutral,minimal,False,False,False,False
+44,female,Altra,black,106.49,minimal,stability,minimal,True,True,True,True
+45,female,Hoka,brown,112.46,moderate,neutral,max,False,False,True,True
+46,male,Asics,white,104.66,minimal,neutral,minimal,False,True,False,False
+47,female,Asics,yellow,130.33,minimal,neutral,minimal,False,False,True,True
+48,male,Altra,black,114.54,max,neutral,minimal,True,True,True,True
+49,male,Saucony,brown,114.5,minimal,neutral,neutral,False,True,True,True
+50,male,Adidas,pink,119.04,max,neutral,minimal,True,False,True,False
+51,male,Saucony,black,124.79,minimal,stability,neutral,False,True,False,True
+52,female,New Balance,ivory,107.36,minimal,neutral,minimal,True,False,True,True
+53,male,New Balance,white,135.89,max,stability,neutral,False,False,False,True
+54,female,Saucony,brown,125.66,max,stability,max,False,True,True,False
+55,female,Altra,brown,121.64,max,stability,max,True,False,True,True
+56,female,Mizuno,grey,100.0,max,stability,max,True,False,False,False
+57,female,Nike,grey,111.24,moderate,stability,max,True,False,False,False
+58,male,Saucony,ivory,123.75,minimal,neutral,neutral,False,True,True,True
+59,female,Adidas,beige,100.0,minimal,stability,minimal,False,False,True,True
+60,male,Saucony,ivory,111.3,minimal,stability,max,True,True,False,False
+61,male,Brooks,brown,105.27,minimal,stability,neutral,True,False,False,False
+62,female,Nike,brown,134.61,max,stability,neutral,False,True,True,True
+63,female,Asics,brown,126.66,max,stability,neutral,False,False,True,True
+64,female,Hoka,orange,118.26,moderate,neutral,neutral,True,False,False,True
+65,female,Adidas,pink,123.87,minimal,stability,minimal,True,False,True,True
+66,female,Brooks,pink,126.59,moderate,neutral,max,False,True,False,False
+67,female,Mizuno,white,123.8,moderate,stability,neutral,False,False,False,True
+68,female,Adidas,blue,145.44,max,stability,max,False,False,True,False
+69,male,Nike,ivory,120.98,minimal,neutral,minimal,True,True,True,True
+70,female,Adidas,grey,100.47,minimal,stability,neutral,False,True,True,True
+71,female,Saucony,grey,128.98,moderate,stability,neutral,False,False,True,False
+72,female,Hoka,yellow,118.12,moderate,stability,neutral,False,False,True,True
+73,female,Adidas,orange,150.98,max,stability,max,True,True,True,True
+74,male,Adidas,white,149.58,max,stability,neutral,True,True,False,True
+75,male,Altra,orange,106.92,max,neutral,minimal,True,False,True,True
+76,female,Hoka,brown,125.22,minimal,neutral,minimal,False,False,True,False
+77,male,Adidas,grey,124.3,max,neutral,minimal,False,True,True,True
+78,male,Mizuno,ivory,125.19,moderate,stability,minimal,True,False,True,True
+79,male,Asics,grey,100.0,minimal,neutral,max,True,False,True,False
+80,male,New Balance,green,144.99,minimal,stability,minimal,False,False,True,False
+81,male,Adidas,green,123.22,minimal,stability,max,True,False,False,True
+82,female,Hoka,black,107.61,moderate,neutral,max,False,False,True,False
+83,male,New Balance,black,100.0,minimal,neutral,neutral,True,True,False,False
+84,female,Brooks,yellow,105.16,moderate,stability,max,True,False,False,False
+85,male,Hoka,green,141.67,max,neutral,neutral,False,False,True,True
+86,male,Mizuno,green,135.39,moderate,neutral,minimal,True,True,False,False
+87,male,Saucony,orange,139.0,max,neutral,max,True,True,True,True
+88,female,New Balance,green,116.41,moderate,neutral,minimal,True,False,True,True
+89,male,Nike,yellow,107.17,minimal,neutral,neutral,True,True,False,True
+90,male,Adidas,beige,117.12,max,stability,max,True,False,True,True
+91,female,Altra,beige,132.43,moderate,stability,minimal,False,False,True,False
+92,female,Mizuno,beige,114.17,max,neutral,minimal,False,True,False,True
+93,female,Nike,brown,137.75,minimal,neutral,minimal,True,False,False,True
+94,female,Hoka,grey,110.72,moderate,stability,neutral,False,False,True,False
+95,female,Saucony,grey,129.24,moderate,stability,neutral,False,False,True,False
+96,female,New Balance,brown,137.36,moderate,neutral,neutral,True,True,False,False
+97,male,Saucony,ivory,124.28,max,neutral,max,False,False,False,True
+98,male,Nike,grey,124.86,max,neutral,max,False,False,False,True
+99,male,Asics,black,134.33,max,neutral,minimal,True,False,True,True
+100,male,Adidas,red,127.45,moderate,neutral,minimal,True,True,False,False
+101,female,Nike,red,123.24,minimal,stability,minimal,False,False,True,True
+102,male,Adidas,pink,136.67,moderate,stability,max,True,False,True,False
