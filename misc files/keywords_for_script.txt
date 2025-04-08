@@ -1,0 +1,12 @@
+keywords for script. on the left will be an array containing the keywords I want to look for, and then it will have an equal sign. to the right of the equal will be what I want the value in the csv to be entered as.
+
+brand:
+[nike, Nike] = nike
+[adidas, Adidas] = adidas
+[asics, Asics] = asics
+[brooks, Brooks] = brooks
+[hoka, Hoka] = hoka
+[new balance] = new_balance
+[reebok, Reebok] = reebok
+[saucony] = saucony
+[under armour, Under Armour] = under_armour

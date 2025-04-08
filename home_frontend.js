@@ -23,7 +23,7 @@ let userAnswers = {
 	hatfeatures: ["no_preference"],
 	includetop: "yes",
 	topcolor: ["no_preference"],
-	topfit: ["no_preference"],
+	//topfit: ["no_preference"],
 	topfeatures: ["no_preference"],
 	shortlongsleeves: "no_preference",
 	includebottom: "yes",
@@ -50,6 +50,7 @@ let userAnswers = {
 
 // Initialize event listeners
 $w.onReady(function () {
+	//$w("#beginbutton").disable();
 	// Hide elements that should not be visible initially
 	$w("#initialquestionstext").hide();
 	$w("#weathercheckbox").hide();
@@ -224,15 +225,16 @@ $w.onReady(function () {
 				if (!validateRequiredField($w("#topcolorcheckbox"))) return;
 				userAnswers.topcolor = $w("#topcolorcheckbox").value;
 				$w("#topcolorcheckbox").hide();
-				$w("#topfitcheckbox").show();
+				//$w("#topfitcheckbox").show();
+				$w("#topfeaturescheckbox").show();
 				break;
 
-			case "topfit":
+			/* 			case "topfit":
 				if (!validateRequiredField($w("#topfitcheckbox"))) return;
 				userAnswers.topfit = $w("#topfitcheckbox").value;
 				$w("#topfitcheckbox").hide();
 				$w("#topfeaturescheckbox").show();
-				break;
+				break; */
 
 			case "topfeatures":
 				if (!validateRequiredField($w("#topfeaturescheckbox"))) return;

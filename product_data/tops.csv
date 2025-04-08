@@ -1,102 +1,20 @@
-item_id,brand,color,sex,price,fit,type,sleeves,thermal,reflective_details,breathable,lightweight,quick_dry,reversible,sun_protection,moisture_wicking,absorbent,cropped,high_top_support
-1,Nike,white,male,30,athletic,tshirt,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
-2,Salomon,green,male,27.42,classic,tshirt,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE
-3,New Balance,grey,female,55.42,slim,tshirt,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-4,Patagonia,orange,male,45.29,slim,tshirt,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE
-5,Saucony,white,unisex,53.25,slim,tank,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE
-6,Hoka,grey,male,43.93,modern,tshirt,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE
-7,Patagonia,yellow,female,41.96,modern,tshirt,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
-8,Adidas,blue,female,68.37,modern,jacket,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
-9,Hoka,black,female,39.47,loose,tank,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE
-10,Patagonia,beige,unisex,45.7,regular,tank,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE
-11,Patagonia,grey,unisex,68.52,loose,jacket,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
-12,Saucony,brown,male,47.8,regular,tshirt,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
-13,Salomon,yellow,unisex,55.28,regular,tshirt,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
-14,Brooks,pink,unisex,34.33,athletic,tshirt,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
-15,New Balance,green,male,59.82,slim,tank,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
-16,Adidas,orange,unisex,80.5,modern,jacket,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
-17,Saucony,green,unisex,32.19,modern,jacket,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
-18,Nike,pink,female,54.49,slim,tshirt,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE
-19,Patagonia,black,male,30,slim,jacket,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
-20,Salomon,pink,unisex,48.46,modern,tank,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
-21,Saucony,black,unisex,48.04,slim,tank,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-22,Under Armour,blue,unisex,54.48,athletic,tank,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
-23,Hoka,orange,female,50.1,athletic,tshirt,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
-24,Nike,pink,female,34.12,slim,tank,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE
-25,New Balance,blue,female,39.45,modern,tank,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
-26,Under Armour,yellow,male,30.88,modern,tshirt,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
-27,Saucony,white,female,59.43,classic,jacket,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
-28,Adidas,orange,male,85.81,modern,jacket,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-29,Saucony,beige,female,32.85,classic,tshirt,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-30,Under Armour,ivory,female,38.83,regular,tank,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
-31,Patagonia,white,male,50.34,regular,tank,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
-32,Nike,grey,unisex,45.66,modern,tshirt,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE
-33,Nike,yellow,unisex,27.13,athletic,tshirt,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE
-34,Nike,pink,unisex,48.87,classic,tshirt,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE
-35,Salomon,red,female,61.63,loose,tshirt,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
-36,Saucony,orange,female,50.9,loose,tank,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
-37,Asics,yellow,male,39.24,loose,tshirt,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
-38,Saucony,orange,unisex,60.93,loose,tshirt,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-39,Nike,yellow,female,31.34,slim,tank,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
-40,Nike,orange,unisex,74.05,slim,jacket,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
-41,New Balance,ivory,female,40.87,modern,tshirt,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
-42,Hoka,beige,unisex,85.68,loose,jacket,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
-43,New Balance,red,female,42.59,loose,tank,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
-44,Saucony,beige,unisex,90.73,modern,jacket,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
-45,Hoka,blue,male,51.22,loose,tank,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE
-46,Brooks,brown,unisex,51.09,regular,tshirt,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE
-47,Saucony,orange,male,76.31,athletic,jacket,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-48,Adidas,grey,unisex,65.64,classic,tank,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
-49,Patagonia,beige,unisex,37.45,modern,tshirt,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
-50,Asics,white,female,73.17,slim,jacket,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-51,Patagonia,black,male,79.19,athletic,jacket,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
-52,Salomon,beige,male,30.19,classic,tank,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
-53,Asics,brown,female,47.58,slim,tank,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
-54,New Balance,pink,female,85,athletic,jacket,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
-55,Nike,orange,male,109.14,classic,jacket,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE
-56,Salomon,yellow,unisex,62.71,modern,jacket,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE
-57,Adidas,red,female,40.13,modern,tshirt,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-58,Asics,grey,male,74.89,regular,jacket,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
-59,New Balance,beige,unisex,74.4,modern,jacket,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
-60,Saucony,beige,female,83.96,regular,jacket,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
-61,Nike,ivory,unisex,42.86,athletic,tank,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
-62,Nike,pink,female,43.14,slim,tshirt,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE
-63,Hoka,white,unisex,103.69,classic,jacket,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE
-64,Salomon,orange,female,67.73,classic,jacket,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
-65,Patagonia,green,unisex,37.41,athletic,tshirt,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
-66,Nike,beige,unisex,42.12,regular,tshirt,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
-67,Saucony,brown,unisex,66.04,loose,jacket,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
-68,Under Armour,black,female,43.97,athletic,tshirt,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE
-69,Adidas,white,unisex,45.88,modern,tshirt,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE
-70,New Balance,grey,unisex,92.72,regular,jacket,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE
-71,Hoka,orange,male,70.56,loose,jacket,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE
-72,Saucony,brown,unisex,45.8,classic,tank,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-73,New Balance,ivory,unisex,30,loose,jacket,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
-74,Brooks,blue,male,35.5,loose,tshirt,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
-75,Patagonia,red,male,37.98,classic,tank,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-76,Asics,yellow,female,62.18,modern,jacket,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
-77,Saucony,black,unisex,42.16,loose,jacket,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
-78,Salomon,yellow,male,60.61,slim,tank,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE
-79,Adidas,beige,male,78.99,loose,jacket,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
-80,Hoka,orange,male,54.21,classic,tshirt,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE
-81,Asics,yellow,female,53.02,loose,tshirt,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE
-82,Asics,brown,male,44.07,loose,jacket,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE
-83,Saucony,red,unisex,59.3,regular,tshirt,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
-84,Brooks,pink,female,83.78,modern,jacket,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
-85,Patagonia,orange,female,67.02,loose,tank,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
-86,Brooks,pink,female,39.45,modern,tank,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
-87,Hoka,pink,unisex,43.92,classic,tank,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
-88,New Balance,green,female,78.73,classic,jacket,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-89,Brooks,beige,male,47.19,loose,tank,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
-90,Asics,red,female,80.38,slim,jacket,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE
-91,Adidas,beige,male,35.08,modern,tank,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
-92,Asics,orange,unisex,62.8,loose,tshirt,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
-93,Asics,white,male,45.64,loose,tshirt,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
-94,Brooks,black,unisex,82.22,modern,jacket,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
-95,Saucony,beige,female,70,modern,tshirt,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE
-96,Nike,beige,unisex,42.6,athletic,tank,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
-97,Hoka,white,unisex,23.92,athletic,tshirt,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
-98,Salomon,black,male,25.86,loose,tank,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE
-99,Nike,beige,unisex,63.6,regular,tshirt,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE
-100,Salomon,white,female,89.89,slim,jacket,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
-101,Adidas,black,female,94.91,classic,jacket,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+﻿topid,product_name,brand,topcolor,gender,weather,distance,price,allergies,ecofriendly,top_sleeves,top_length,top_preference,preferencescore,description,image,link
+1,Rab Men's Force Tee,rab,"gray,beige,blue,red,yellow","mens,non_binary","hot,windy,rainy,humid","minimum,medium,max",45,polyester,no,short,hip_length,"lightweight,sun_protection,quick_dry",7.8516,"Stay cool and protected with the Rab Men's Force Tee—a lightweight, breathable performance shirt designed for hiking, climbing, and high-output activities. Featuring UPF protection to shield against harmful UV rays and Motiv™ fabric for moisture-wicking comfort, this slim-fit tee works great as a standalone layer in the heat or as a base layer in cooler conditions. Stylish and functional, it’s ready for both trail adventures and casual wear. #running #hiking #outdoorgear",https://m.media-amazon.com/images/I/51z6aedn7LL._AC_SX679_.jpg,https://amzn.to/4lt6CoL
+2,TLRUN Men's Running Tank - Ultra Lightweight,tlrun,"blue,red,gray,yellow,black,pink,orange","mens,non_binary","hot,windy,rainy,humid","minimum,medium,max",17,polyester,no,no_sleeves,hip_length,"reflective_details,lightweight,quick_dry",8.7289,"TLRUN Men's Running Tank – Ultra Lightweight, breathable, and moisture-wicking with a grid-textured quick-dry fabric. Features flat-lock stitching to prevent chafing, 360° reflective details for visibility, and a barely-there feel for maximum comfort during running, workouts, and sports.",https://m.media-amazon.com/images/I/71WgNuQfFuL._AC_SY741_.jpg,https://amzn.to/4iN8qXV
+3,Nike Men's Breathe Running T-Shirt,nike,"black,beige","mens,non_binary","hot,windy,rainy,humid","minimum,medium,max",35,none,no,short,hip_length,"lightweight,quick_dry",8.6668,Nike Breathe Running T-Shirt made from Dri-FIT mesh fabric for lightweight breathability and moisture control during runs.,https://m.media-amazon.com/images/I/51+Th+BsJ2L._AC_SX679_.jpg,https://amzn.to/4jiPVu7
+4,Nike Men's Long Sleeve Shirt,nike,"blue,red,gray","mens,non_binary","cold,windy,rainy","minimum,medium",36,polyester,no,long,hip_length,"lightweight,quick_dry",10.2662,"Nike Men's Legend Long Sleeve Tee featuring Dri-FIT technology and a relaxed fit, ideal for comfortable workouts.",https://m.media-amazon.com/images/I/81HtENCHzHL._AC_SX679_.jpg,https://amzn.to/4i49jtQ
+5,Brooks Luxe Short Sleeve,brooks,"gray,blue,black","mens,non_binary","hot,windy,rainy,humid","minimum,medium,max",50,"polyester,spandex",no,short,hip_length,"quick_dry,anti_odor",7.9601,"Brooks Men's Luxe Short Sleeve running shirt featuring ultra-soft GO₂ Soft™ fabric, moisture-wicking properties, and a semi-fitted design for optimal comfort.",https://m.media-amazon.com/images/I/71JTDzdmTCL._AC_SX679_.jpg,https://amzn.to/4j072RI
+6,adidas Men's Essentials Feelready Training T-Shirt,adidas,"black,white,red,orange,gray,blue,green,yellow","mens,non_binary","hot,windy,rainy,humid","minimum,medium",19,"polyester,cotton",no,short,hip_length,quick_dry,9.515,"Adidas Men's Essentials Training T-Shirt made with recycled materials, featuring Aeroready technology for moisture-wicking and a regular fit.",https://m.media-amazon.com/images/I/41Dn3oQ2PAL._AC_SX679_.jpg,https://amzn.to/3FSdGLh
+7,New Balance Men's Athletics T-Shirt,new_balance,"green,black,blue,white,beige,red","mens,non_binary","hot,windy,rainy,humid","minimum,medium,max",40,polyester,yes,short,hip_length,"quick_dry,lightweight",6.3852,"New Balance Men's Athletics T-Shirt in Dark Olivine, crafted from 95% recycled polyester and 5% polyester, offering an athletic fit with NB ICEx fast-drying technology for superior comfort during workouts.",https://m.media-amazon.com/images/I/71L0E7h1cqL._AC_SX679_.jpg,https://amzn.to/4jp85uq
+8,Under Armour Men's Tech 2.0 Short-Sleeve T-Shirt,under_armour,"black,yellow,red,green,beige,black,gray,blue,pink,orange,white","mens,non_binary","hot,windy,rainy,humid","minimum,medium,max",15,polyester,no,short,hip_length,"quick_dry,lightweight,anti_odor",9.649,"Under Armour Men's Tech 2.0 Short-Sleeve T-Shirt, made from 100% polyester with quick-drying technology, designed for comfort and performance during workouts.",https://m.media-amazon.com/images/I/51FKycqF0yS._AC_SX679_.jpg,https://amzn.to/3RzPoIe
+9,CRZ YOGA Mens Lightweight Athletic T-Shirt,crz_yoga,"black,blue,white,beige,gray","mens,non_binary","hot,windy,rainy,humid","minimum,medium,max",26,polyester,no,short,"hip_length,long","lightweight,quick_dry",8.77,"CRZ YOGA Men's Lightweight Athletic T-Shirt, crafted from 92% polyester and 8% spandex for a soft and flexible fit, perfect for running and workouts.",https://m.media-amazon.com/images/I/81LhYxjl0PL._AC_SX569_.jpg,https://amzn.to/42gnar4
+10,PUMA Men's Run Favorite Singlet,puma,"blue,black,yellow,gray,red","mens,non_binary","hot,windy,rainy,humid","minimum,medium,max",21,polyester,yes,no_sleeves,hip_length,"reflective_details,lightweight,quick_dry",7.6109,"PUMA Men's Run Favorite Singlet, crafted from 100% polyester for lightweight comfort and moisture-wicking properties, perfect for running and training.",https://m.media-amazon.com/images/I/51mLzJEknrL._AC_SX679_.jpg,https://amzn.to/3E8EKVX
+11,adidas Women's Own the Run Tank,adidas,"black,pink",female,"hot,windy,rainy,humid","minimum,medium,max",28,polyester,yes,no_sleeves,hip_length,"reflective_details,lightweight,quick_dry",7.9743,"Adidas Women's Own The Run Long Sleeve T-Shirt in Black, featuring moisture-absorbing AEROREADY technology, reflective elements, and a comfortable regular fit.",https://m.media-amazon.com/images/I/410nNICNU0L._AC_SX679_.jpg,https://amzn.to/4ckMX6b
+12,CRZ YOGA Seamless Workout Tops for Women Short Sleeve,crz_yoga,"black,blue,pink,gray,red,white",female,"hot,windy,rainy,humid","minimum,medium,max",24,polyester,no,short,hip_length,quick_dry,8.9605,"CRZ YOGA Women's Seamless Athletic Long Sleeve Shirt in Black, featuring moisture-wicking, seamless fabric, and a comfortable slim fit design.",https://m.media-amazon.com/images/I/71EzhTSXdQL._AC_SX569_.jpg,https://amzn.to/4ckYRg5
+13,baleaf Women's Short Sleeve,baleaf,"red,blue,black,gray,pink,white",female,"hot,windy,rainy,humid","minimum,medium,max",23,"polyester,spandex",no,short,hip_length,"reflective_details,lightweight,quick_dry",9.3449,"Baleaf Women's Short Sleeve Crew Neck Workout Top in various colors, featuring moisture-wicking fabric for optimal comfort during workouts, and reflective elements for visibility.",https://m.media-amazon.com/images/I/61AGT94DvTL._AC_SY741_.jpg,https://amzn.to/42l7tPy
+14,Nike Womens Pro Allover Mesh Short Sleeve Top 2.0,nike,"blue,black,red,green,white,gray",female,"hot,windy,rainy,humid","minimum,medium,max",32,"polyester,spandex",yes,short,hip_length,"lightweight,quick_dry",7.7561,"Nike Women's Pro Allover Mesh Short Sleeve Top 2.0 in Black, featuring breathable mesh fabric and a slim fit design for optimal comfort during workouts.",https://m.media-amazon.com/images/I/41CzwbbJSJL._AC_SY741_.jpg,https://amzn.to/4chwEa6
+15,CRZ YOGA Pima Cotton Cropped Workout Tank Top,crz_yoga,"black,yellow,red,green,beige,black,gray,blue,pink",female,"hot,windy,rainy,humid","minimum,medium",20,"cotton,spandex",no,no_sleeves,crop,lightweight,9.2381,"CRZ YOGA Pima Cotton Cropped Workout Tank Top, featuring a soft blend of Pima cotton and elastane for comfort, perfect for workouts or casual wear.",https://m.media-amazon.com/images/I/71phVEHphvL._AC_SX569_.jpg,https://amzn.to/4je7CLi
+16,MathCat Seamless Workout Shirts for Women Long Sleeve,mathcat,"black,yellow,red,green,beige,black,gray,blue,pink,orange,white",female,"cold,windy,rainy","minimum,medium,max",28,nylon,no,long,hip_length,"lightweight,quick_dry",8.659,"MathCat Seamless Long Sleeve Workout Shirt for Women, featuring a breathable Nylon-Spandex blend with thumbholes, ideal for yoga, running, and gym workouts.",https://m.media-amazon.com/images/I/71lhIq6EYdL._AC_SY741_.jpg,https://amzn.to/42kGBz1
+17,G4Free Women's UPF 50+ UV Shirts Long Sleeve,g4free,"black,yellow,red,green,beige,black,gray,blue,pink,orange,white",female,"cold,windy,rainy,hot,humid","minimum,medium,max",24,"polyester,spandex",no,long,"hip_length,long","lightweight,sun_protection,quick_dry",9.1116,"G4Free Women's Long Sleeve UV Protection Shirt, featuring UPF 50+ sun protection, lightweight and breathable fabric, perfect for outdoor activities like hiking, running, and yoga.",https://m.media-amazon.com/images/I/61qQk-MdgFL._AC_SX569_.jpg,https://amzn.to/4cv4kBm
+18,CRZ YOGA Butterluxe Workout Tank Top,crz_yoga,"black,red,pink,green,beige,white,gray",female,"hot,windy,rainy,humid",minimum,32,"nylon,spandex",no,no_sleeves,hip_length,built_in_bra,9.3423,"CRZ YOGA Butterluxe Workout Tank Top, made from a blend of 81% Polyamide and 19% Lycra for exceptional softness and stretch, perfect for yoga and daily wear.",https://m.media-amazon.com/images/I/71jcJmxsqfL._AC_SX569_.jpg,https://amzn.to/4jhGz1B
+19,Arc'teryx Taema Crew Neck Shirt SS Women's,arcteryx,"gray,white,blue",female,"hot,windy,rainy,humid","minimum,medium,max",70,polyester,yes,short,hip_length,"lightweight,sun_protection,anti_odor,quick_dry",8.1156,"Arc'teryx Taema Crew Neck Shirt SS Women's, crafted from 100% recycled Phasic LT polyester, offering superior moisture-wicking and breathability for active outdoor pursuits.",https://m.media-amazon.com/images/I/71XrmYLduyL._AC_SL1500_.jpg,https://amzn.to/4jdzcIF

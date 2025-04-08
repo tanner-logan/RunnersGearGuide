@@ -1,102 +1,14 @@
-item_id,brand,color,price,adjustable,lightweight,sun_protection,breathable,quick_dry,reversible,washable,water_resistant,ponytail_compatible
-1,Nike,black,20,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE
-2,New Balance,green,29.91,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
-3,Brooks,black,38.1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
-4,Saucony,black,38.78,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-5,Asics,red,23.74,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
-6,Salomon,grey,39.25,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-7,Saucony,red,29.22,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-8,Nike,pink,35.39,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
-9,Asics,grey,51.25,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE
-10,New Balance,brown,31.28,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
-11,Asics,green,37.02,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
-12,Patagonia,pink,38.09,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE
-13,Adidas,black,20,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
-14,Asics,ivory,30.07,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
-15,New Balance,pink,20,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
-16,Asics,red,32.28,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-17,Asics,beige,27.46,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE
-18,Hoka,black,28.62,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE
-19,Nike,yellow,37.48,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE
-20,Adidas,blue,39.85,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE
-21,Nike,red,39.37,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE
-22,Patagonia,white,28.37,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
-23,Brooks,white,35.95,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE
-24,New Balance,grey,53.26,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
-25,Hoka,green,29.87,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
-26,Asics,green,51.08,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
-27,Nike,beige,29.99,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
-28,Under Armour,black,35.99,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
-29,Asics,red,20.78,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
-30,Nike,beige,20,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
-31,Saucony,yellow,20,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE
-32,Brooks,black,46.63,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
-33,Salomon,yellow,28.03,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
-34,Under Armour,grey,37.47,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE
-35,Adidas,brown,31.88,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
-36,Hoka,orange,37.52,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
-37,Hoka,green,20,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
-38,Brooks,beige,31.55,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
-39,Salomon,brown,43.45,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-40,Saucony,green,36.79,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
-41,Saucony,blue,29.3,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE
-42,Patagonia,red,20.46,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE
-43,Under Armour,ivory,29.44,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
-44,Patagonia,white,39.92,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE
-45,Asics,black,20,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
-46,Saucony,black,25.15,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
-47,New Balance,blue,37.36,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE
-48,Adidas,pink,20,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE
-49,Asics,red,21.51,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
-50,Salomon,green,39.51,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-51,New Balance,red,20,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE
-52,Salomon,beige,20.31,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
-53,Under Armour,white,28.42,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
-54,Asics,red,27.12,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
-55,Patagonia,yellow,37.04,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
-56,Asics,grey,20,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE
-57,Asics,brown,36.15,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
-58,Saucony,brown,33.48,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
-59,Salomon,grey,29.94,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
-60,Saucony,blue,20,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE
-61,Salomon,black,40.66,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE
-62,Saucony,black,36.07,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
-63,Under Armour,blue,49.74,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
-64,Saucony,red,36.76,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
-65,Adidas,beige,20,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
-66,Adidas,yellow,23.89,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE
-67,Brooks,blue,29.31,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
-68,Salomon,green,52.26,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
-69,Under Armour,pink,31.39,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
-70,Brooks,yellow,34.82,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
-71,New Balance,yellow,26.31,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-72,Salomon,blue,21.12,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE
-73,Adidas,yellow,22.92,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE
-74,New Balance,orange,32.67,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE
-75,Adidas,white,40.61,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
-76,Brooks,black,24.12,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
-77,Nike,brown,28.02,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
-78,Saucony,grey,38.98,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
-79,Nike,yellow,40.61,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE
-80,Adidas,black,38.28,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
-81,Under Armour,red,40.06,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-82,Saucony,yellow,31.49,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
-83,Under Armour,yellow,30.91,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
-84,Asics,black,48.46,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE
-85,New Balance,brown,26.17,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
-86,Patagonia,yellow,41.97,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
-87,Salomon,green,23.53,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE
-88,Adidas,yellow,43.63,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-89,Brooks,yellow,34.06,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-90,New Balance,beige,30.43,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE
-91,Patagonia,yellow,23.08,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
-92,Patagonia,beige,32.76,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
-93,Adidas,beige,33.56,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
-94,Hoka,beige,38.83,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
-95,Asics,pink,25.65,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
-96,Under Armour,ivory,20.2,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE
-97,New Balance,black,45.99,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
-98,New Balance,red,26.25,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE
-99,Patagonia,pink,20,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
-100,Under Armour,orange,20,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE
-101,Hoka,brown,34.96,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE
+hatid,product_name,brand,hatcolor,gender,weather,distance,price,allergies,ecofriendly,designpreference,hatfeatures,preferencescore,description,image,link
+1,adidas Women's Superlite Hat,adidas,"white,black,beige,pink,green,blue",female,"hot,humid,windy,rainy","minimum,medium,max",16,"polyester,spandex",no,casual,"adjustable,lightweight,breathable,machine_washable,ponytail_compatible",8.2409,,https://m.media-amazon.com/images/I/61sdogszbMS._AC_SX679_.jpg,https://amzn.to/4i0aJp5
+2,Under Armour Women's Iso-chill Launch Run Adjustable Hat,under_armour,"pink,white,black",female,"hot,humid,windy,rainy","minimum,medium,max",24,polyester,no,"minimal,casual","adjustable,lightweight,breathable,ponytail_compatible",5.0854,,https://m.media-amazon.com/images/I/51VSDp+eDzL._AC_SX679_.jpg,https://amzn.to/4i8XLWd
+3,Nike Dri-FIT Moisture-Wicking Performance Swoosh Cap,nike,"black,white,red,blue,gray","mens,female,non_binary","hot,humid,windy,rainy","minimum,medium",30,polyester,no,"minimal,casual","adjustable,machine_washable,ponytail_compatible",4.6423,,https://m.media-amazon.com/images/I/51wEAbsVohL._AC_SX679_.jpg,https://amzn.to/3RzxXaL
+4,ASICS Unisex 5 PANEL CAP,asics,"black,white,blue,gray,green","mens,female,non_binary","hot,humid,windy,rainy","minimum,medium,max",40,polyester,no,casual,"adjustable,lightweight,machine_washable,ponytail_compatible,breathable,flat_brim",4.8339,,https://m.media-amazon.com/images/I/61QWbU9qSzL._AC_SX679_.jpg,https://amzn.to/42oqTDb
+5,Ciele Athletics GOCap C Plus Box,ciele,"green,red,beige,blue,orange,pink","mens,female,non_binary","hot,humid,windy,rainy","minimum,medium,max",40,polyester,yes,minimal,"adjustable,sun_protection,lightweight,breathable,quick_dry,machine_washable,water_resistant,ponytail_compatible,flat_brim",5.6378,,https://m.media-amazon.com/images/I/613v3lx9+6L._AC_SX679_.jpg,https://amzn.to/3YjtJYB
+6,New Balance Lightweight Running/Athletic Hat,new_balance,black,"mens,female,non_binary","windy,rainy,cold","minimum,medium,max",20,"polyester,spandex",no,"casual,minimal","lightweight,breathable,machine_washable",7.4378,,https://m.media-amazon.com/images/I/81xgFgA1zNL._AC_SX679_.jpg,https://amzn.to/3Eb8cuu
+7,Brooks Unisex Chaser Hat,brooks,"white,black,blue,red","mens,female,non_binary","hot,humid,windy,rainy","minimum,medium,max",32,"polyester,spandex",yes,"minimal,bold","adjustable,lightweight,machine_washable,ponytail_compatible",5.5384,,https://m.media-amazon.com/images/I/71yLVc8VcbL._AC_SX679_.jpg,https://amzn.to/3YmLmH5
+8,Reebok Running Hat,reebok,blue,"mens,female,non_binary","hot,humid,windy,rainy","minimum,medium,max",28,polyester,yes,bold,"adjustable,lightweight,quick_dry,sun_protection,ponytail_compatible,flat_brim",5.7917,,https://m.media-amazon.com/images/I/71g6SBAW6uL._AC_SX679_.jpg,https://amzn.to/4iXqnTq
+9,Sukeen Lightweight Sun Hat,sukeen,"blue,black,green,pink,white,yellow","mens,female,non_binary","hot,humid,windy,rainy","minimum,medium,max",13,"polyester,nylon",no,"minimal,casual","adjustable,lightweight,machine_washable,ponytail_compatible,sun_protection,quick_dry",5.4137,,https://m.media-amazon.com/images/I/71tGrOL3XGL._AC_SX679_.jpg,https://amzn.to/3Rzf7AG
+10,Coal Provo 5-Panel Lightweight Hat,coal,"blue,black,white,orange,red,beige,pink,yellow,green","mens,female,non_binary","hot,humid,windy,rainy","minimum,medium,max",40,polyester,yes,"minimal,casual,bold","adjustable,lightweight,machine_washable,ponytail_compatible,sun_protection,quick_dry,breathable,flat_brim",6.7666,,https://m.media-amazon.com/images/I/71PI3kxXjGL._AC_SX679_.jpg,https://amzn.to/4iZRv4q
+11,THE NORTH FACE Horizon Hat,north_face,"black,blue,white,gray","mens,female,non_binary","hot,humid,windy,rainy","minimum,medium,max",28,nylon,yes,"minimal,casual","adjustable,lightweight,machine_washable,ponytail_compatible,quick_dry",6.8839,,https://m.media-amazon.com/images/I/61fBPThF23L._AC_SX679_.jpg,https://amzn.to/4i1m6xa
+12,Running Hat for Men - Dry Fit,outdoor_essentials,"black,gray,blue,white","mens,female,non_binary","hot,humid,windy,rainy","minimum,medium,max",10,polyester,no,"minimal,casual","adjustable,lightweight,sun_protection,breathable,quick_dry,ponytail_compatible",6.7336,,https://m.media-amazon.com/images/I/71ZsO0oQtTL._AC_SX679_.jpg,https://amzn.to/4ljzKyk
+13,Ciele Athletics ALZCap,ciele,"white, pink, yellow","mens,female,non_binary","hot,humid,windy,rainy","minimum,medium,max",40,polyester,yes,"minimal,casual","adjustable,sun_protection,lightweight,breathable,quick_dry,machine_washable,water_resistant,ponytail_compatible,flat_brim",5.9899,"Designed for performance and style, the Ciele Athletics ALZCap is a lightweight, breathable running cap with Coolmatic™ moisture-wicking fabric to keep you cool and dry. Featuring a lower-profile fit, UPF +40 sun protection, and reflective details for night runs, this cap is perfect for short sprints or long marathons. Packable and washable, it’s built for all-day comfort with an adjustable fit for smaller head sizes. Stay protected, run further, and move with confidence. #runninggear #moisturewicking #sunprotection",https://m.media-amazon.com/images/I/51vYCB3u0rL._AC_SX679_.jpg,https://amzn.to/3FQjogD

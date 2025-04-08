@@ -1,0 +1,21 @@
+4.23 + 4.2 + 2.7 + .85 + 1.6
+
+How many reviews does the listed item have?
+1 - 0-10
+2 - 10-50
+3 - 50-100
+4 - 100-200
+5 - 200-500
+6 - 500-1000
+7 - 1000-1500
+8 - 1500-2000
+9 - 2000-5000
+10 - 5000+
+
+Factor				Weight
+User Ratings			90%
+Runner rep			60%	
+Amount Reviews			20%
+Material Quality		20%
+
+Preference Score = (User Rating × Dynamic Weight) + (Runner Reputation × 0.6 × User Rating Weight) + (Material Quality × 0.2) + (log(# of reviews) × 0.1)

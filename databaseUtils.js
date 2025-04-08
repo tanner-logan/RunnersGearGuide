@@ -43,12 +43,7 @@ export function saveToDatabase(userAnswers) {
 		userliked: userAnswers.userliked,
 	};
 
-	wixData
-		.insert("UserResponses", toInsert)
-		.then((results) => {
-			console.log("Data saved to database:", results);
-		})
-		.catch((err) => {
-			console.error("Error saving to database:", err);
-		});
+	wixData.insert("UserResponses", toInsert).catch((err) => {
+		console.error("Error saving to database:", err);
+	});
 }
