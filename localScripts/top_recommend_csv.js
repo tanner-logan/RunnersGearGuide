@@ -1,68 +1,41 @@
-import wixData from "wix-data";
+/*
+tops.csv columns
+topid,product_name,brand,topcolor,gender,weather,distance,price,allergies,ecofriendly,top_sleeves,top_length,top_preference,preferencescore,description,image,link
+*/
 
-/**
- * Main function to get the top three top IDs based on user answers.
- * @param {Object} userAnswers - The user answers object from the frontend.
- * @returns {Promise<Array>} - A promise that resolves to an array of the top three top IDs.
- */
-export async function getTopThreeTops(userAnswers) {
-	try {
-		// Load tops data from the Wix 'tops' collection
-		const topsData = await loadTopsData();
+const fs = require("fs");
+const Papa = require("papaparse");
 
-		// Filter tops based on user answers
-		const filteredTops = filterTopsByUserAnswers(topsData, userAnswers);
+function loadTopsData(filePath) {
+	return new Promise((resolve, reject) => {
+		fs.readFile(filePath, "utf8", (err, data) => {
+			if (err) {
+				return reject(err);
+			}
 
-		// Score the filtered tops
-		const scoredTops = filteredTops
-			.map((top) => ({
-				...top,
-				score: scoreTop(top, userAnswers, topsData),
-			}))
-			.sort((a, b) => {
-				if (b.score !== a.score) {
-					return b.score - a.score;
-				}
-				return parseFloat(b.preferencescore) - parseFloat(a.preferencescore);
-			})
-			.slice(0, 3); // Get the top three tops
-
-		// Return the top three top IDs
-		return scoredTops.map((top) => top.topid);
-	} catch (error) {
-		console.error("Error in getTopThreeTops:", error);
-		return [];
-	}
-}
-
-/**
- * Loads tops data from the Wix 'tops' collection.
- * @returns {Promise<Array>} - A promise that resolves to an array of top objects.
- */
-async function loadTopsData() {
-	try {
-		const result = await wixData.query("tops").find();
-		return result.items.map((item) => {
-			// Clean up the data by trimming whitespace from all string values
-			Object.keys(item).forEach((key) => {
-				if (typeof item[key] === "string") {
-					item[key] = item[key].trim();
-				}
+			Papa.parse(data, {
+				header: true, // Treat the first row as headers
+				skipEmptyLines: true, // Skip empty rows
+				complete: (results) => {
+					// Clean up the data by trimming whitespace from all string values
+					const cleanedData = results.data.map((row) => {
+						Object.keys(row).forEach((key) => {
+							if (typeof row[key] === "string") {
+								row[key] = row[key].trim();
+							}
+						});
+						return row;
+					});
+					resolve(cleanedData);
+				},
+				error: (error) => {
+					reject(error);
+				},
 			});
-			return item;
 		});
-	} catch (error) {
-		console.error("Error loading tops data:", error);
-		throw error;
-	}
+	});
 }
 
-/**
- * Filters tops based on user answers.
- * @param {Array} topsData - The array of top objects.
- * @param {Object} userAnswers - The user answers object.
- * @returns {Array} - The filtered array of top objects.
- */
 function filterTopsByUserAnswers(topsData, userAnswers) {
 	const excludedBrands = ["adidas", "asics", "brooks", "nike", "under_armour", "new_balance", "reebok", "hoka", "saucony"];
 
@@ -125,12 +98,11 @@ function filterTopsByUserAnswers(topsData, userAnswers) {
 		});
 	});
 
-	// Handle cases where fewer than 3 matches are found
-	// if (matchingTops.length >= 3) {
-	// 	console.log("3 or more matches found: ", matchingTops.length);
-	// } else {
-	// 	console.log("Less than 3 matches found");
-	// }
+	if (matchingTops.length >= 3) {
+		console.log("3 or more matches found: ", matchingTops.length);
+	} else {
+		console.log("Less than 3 matches found");
+	}
 
 	return matchingTops.length >= 3
 		? matchingTops
@@ -142,18 +114,11 @@ function filterTopsByUserAnswers(topsData, userAnswers) {
 		  });
 }
 
-/**
- * Scores a top based on user answers.
- * @param {Object} top - The top object.
- * @param {Object} userAnswers - The user answers object.
- * @param {Array} allTops - The array of all top objects.
- * @returns {number} - The score for the top.
- */
-function scoreTop(top, userAnswers, allTops) {
+function scoreTop(top, userAnswers, filteredTops) {
 	let score = 0;
 
-	// Calculate price ranges for minimum, medium, and max
-	const prices = allTops.map((item) => parseFloat(item.price)).sort((a, b) => a - b);
+	// Calculate price ranges for minimum, medium, and max based on filteredTops
+	const prices = filteredTops.map((item) => parseFloat(item.price)).sort((a, b) => a - b);
 	const lowestPrice = prices[0];
 	const highestPrice = prices[prices.length - 1];
 	const priceRangeStep = (highestPrice - lowestPrice) / 3;
@@ -264,3 +229,44 @@ function scoreTop(top, userAnswers, allTops) {
 
 	return score;
 }
+
+(async () => {
+	try {
+		const filePath = "./product_data/tops.csv";
+		const topsData = await loadTopsData(filePath);
+
+		const userAnswers = {
+			brand: ["no_preference"],
+			topcolor: ["no_preference"],
+			gender: "mens",
+			weather: ["no_preference"],
+			distance: ["no_preference"],
+			price: ["no_preference"], // Example: Only score items in the minimum price range
+			allergies: ["no_preference"],
+			ecofriendly: "no_preference",
+			top_sleeves: ["no_preference"],
+			top_length: ["crop"],
+			top_preference: ["no_preference"],
+		};
+
+		const result = filterTopsByUserAnswers(topsData, userAnswers);
+		const scoredTops = result
+			.map((top) => ({
+				...top,
+				score: scoreTop(top, userAnswers, result), // Pass the filtered results
+			}))
+			.sort((a, b) => {
+				if (b.score !== a.score) {
+					return b.score - a.score;
+				}
+				return parseFloat(b.preferencescore) - parseFloat(a.preferencescore);
+			})
+			.slice(0, 3);
+
+		scoredTops.forEach((top) => {
+			console.log("Scored Tops:", top);
+		});
+	} catch (error) {
+		console.error("Error:", error);
+	}
+})();

@@ -1,11 +1,4 @@
-const determineShirtPreferenceScore = (
-	rating,
-	amountOfReviews,
-	runnerRep,
-	materialQuality,
-	fitScore, // 0–10
-	hasReflectivity // boolean (true = 1 point bonus)
-) => {
+const determineShirtPreferenceScore = (rating, amountOfReviews, runnerRep, materialQuality, fitScore, hasReflectivity) => {
 	let ratingWeight;
 
 	// Adjust the weight of rating based on the number of reviews
@@ -54,12 +47,12 @@ const hasReflectivity = false;
 */
 
 // Example usage
-const rating = 4.6; // Based on Amazon average rating
-const amountOfReviews = 32; // Based on Amazon review count (no commas per your request)
-const runnerRep = 8.0; // PUMA is generally well-accepted in the running community for quality running apparel
-const materialQuality = 8.5; // Made with 100% polyester for lightweight comfort and moisture-wicking
-const fitScore = 8.0; // Regular fit designed for a comfortable range of motion
-const hasReflectivity = true; // No reflective features noted
+const rating = 4.4; // Based on Amazon average rating (assumed as no rating information provided)
+const amountOfReviews = 500; // Based on Amazon review count (assumed as no review count provided)
+const runnerRep = 7.5; // ASICS is a well-known and trusted brand in the running community
+const materialQuality = 7.0; // Lightweight fabric designed for comfort during athletic use
+const fitScore = 7.5; // Regular fit designed to be comfortable and allow movement
+const hasReflectivity = false; // No reflective details noted
 
 const score = determineShirtPreferenceScore(rating, amountOfReviews, runnerRep, materialQuality, fitScore, hasReflectivity);
 

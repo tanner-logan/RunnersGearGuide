@@ -1,103 +1,33 @@
-item_id,sex,brand,color,price,cushioning,stability,midsole_drop,wide_toe_box,wide_foot,narrow_foot,lightweight
-1,male,Nike,white,120.0,max,stability,neutral,True,True,False,False
-2,female,Hoka,black,130.0,moderate,neutral,max,False,False,True,True
-3,male,Hoka,yellow,121.3,moderate,neutral,max,True,True,False,True
-4,female,Adidas,green,116.43,minimal,stability,max,True,False,False,True
-5,male,Mizuno,white,119.4,moderate,stability,max,False,False,False,True
-6,male,Adidas,white,119.59,moderate,neutral,minimal,True,True,False,True
-7,female,Hoka,blue,145.45,minimal,neutral,neutral,False,True,False,True
-8,male,Nike,black,121.09,max,neutral,neutral,True,False,True,False
-9,male,Nike,red,113.31,moderate,stability,minimal,False,False,False,True
-10,female,Asics,ivory,114.48,max,stability,max,True,False,True,True
-11,male,New Balance,grey,134.53,max,stability,minimal,True,True,False,True
-12,male,Altra,grey,114.62,max,neutral,neutral,False,True,True,False
-13,male,Nike,green,110.42,max,stability,neutral,False,False,False,True
-14,male,Saucony,ivory,112.58,minimal,stability,max,False,True,False,True
-15,female,Altra,red,138.67,minimal,stability,neutral,False,True,True,False
-16,male,Hoka,ivory,115.22,moderate,neutral,minimal,True,False,True,False
-17,female,Adidas,black,125.8,moderate,stability,neutral,False,False,True,True
-18,male,Mizuno,brown,112.4,moderate,neutral,max,False,False,True,True
-19,female,Altra,beige,127.32,minimal,neutral,minimal,True,True,False,True
-20,male,Hoka,beige,137.72,moderate,stability,max,False,False,False,False
-21,female,Saucony,pink,121.9,minimal,neutral,minimal,False,True,False,True
-22,female,Adidas,green,101.09,minimal,neutral,neutral,True,False,True,False
-23,female,Altra,black,160.0,moderate,neutral,neutral,False,True,False,False
-24,female,Adidas,yellow,119.95,minimal,stability,minimal,False,False,True,False
-25,male,Asics,white,113.92,minimal,neutral,neutral,True,False,True,False
-26,male,New Balance,pink,103.68,max,neutral,neutral,False,False,True,False
-27,male,Asics,orange,121.49,moderate,stability,minimal,True,True,True,True
-28,male,New Balance,beige,100.27,moderate,neutral,max,False,True,True,False
-29,female,Adidas,orange,100.0,minimal,stability,minimal,False,True,True,False
-30,female,New Balance,brown,110.18,moderate,stability,neutral,True,True,True,False
-31,female,Mizuno,green,100.0,moderate,stability,max,True,False,True,True
-32,male,Altra,grey,100.0,moderate,stability,neutral,True,False,False,False
-33,female,Mizuno,ivory,129.03,moderate,neutral,max,False,False,False,False
-34,male,Asics,grey,100.0,moderate,neutral,neutral,False,False,False,False
-35,male,Asics,pink,120.66,max,neutral,neutral,True,False,True,False
-36,male,Hoka,yellow,109.88,moderate,neutral,minimal,True,True,False,False
-37,male,Nike,blue,100.0,minimal,stability,max,True,False,True,True
-38,female,Altra,blue,113.27,max,neutral,minimal,True,False,False,False
-39,female,Asics,ivory,110.54,minimal,stability,max,False,True,True,True
-40,male,Mizuno,black,117.32,max,stability,minimal,True,False,True,False
-41,male,Saucony,red,122.06,max,stability,max,True,False,True,True
-42,female,Saucony,blue,131.13,minimal,stability,neutral,True,True,False,False
-43,female,Asics,pink,133.33,max,neutral,minimal,False,False,False,False
-44,female,Altra,black,106.49,minimal,stability,minimal,True,True,True,True
-45,female,Hoka,brown,112.46,moderate,neutral,max,False,False,True,True
-46,male,Asics,white,104.66,minimal,neutral,minimal,False,True,False,False
-47,female,Asics,yellow,130.33,minimal,neutral,minimal,False,False,True,True
-48,male,Altra,black,114.54,max,neutral,minimal,True,True,True,True
-49,male,Saucony,brown,114.5,minimal,neutral,neutral,False,True,True,True
-50,male,Adidas,pink,119.04,max,neutral,minimal,True,False,True,False
-51,male,Saucony,black,124.79,minimal,stability,neutral,False,True,False,True
-52,female,New Balance,ivory,107.36,minimal,neutral,minimal,True,False,True,True
-53,male,New Balance,white,135.89,max,stability,neutral,False,False,False,True
-54,female,Saucony,brown,125.66,max,stability,max,False,True,True,False
-55,female,Altra,brown,121.64,max,stability,max,True,False,True,True
-56,female,Mizuno,grey,100.0,max,stability,max,True,False,False,False
-57,female,Nike,grey,111.24,moderate,stability,max,True,False,False,False
-58,male,Saucony,ivory,123.75,minimal,neutral,neutral,False,True,True,True
-59,female,Adidas,beige,100.0,minimal,stability,minimal,False,False,True,True
-60,male,Saucony,ivory,111.3,minimal,stability,max,True,True,False,False
-61,male,Brooks,brown,105.27,minimal,stability,neutral,True,False,False,False
-62,female,Nike,brown,134.61,max,stability,neutral,False,True,True,True
-63,female,Asics,brown,126.66,max,stability,neutral,False,False,True,True
-64,female,Hoka,orange,118.26,moderate,neutral,neutral,True,False,False,True
-65,female,Adidas,pink,123.87,minimal,stability,minimal,True,False,True,True
-66,female,Brooks,pink,126.59,moderate,neutral,max,False,True,False,False
-67,female,Mizuno,white,123.8,moderate,stability,neutral,False,False,False,True
-68,female,Adidas,blue,145.44,max,stability,max,False,False,True,False
-69,male,Nike,ivory,120.98,minimal,neutral,minimal,True,True,True,True
-70,female,Adidas,grey,100.47,minimal,stability,neutral,False,True,True,True
-71,female,Saucony,grey,128.98,moderate,stability,neutral,False,False,True,False
-72,female,Hoka,yellow,118.12,moderate,stability,neutral,False,False,True,True
-73,female,Adidas,orange,150.98,max,stability,max,True,True,True,True
-74,male,Adidas,white,149.58,max,stability,neutral,True,True,False,True
-75,male,Altra,orange,106.92,max,neutral,minimal,True,False,True,True
-76,female,Hoka,brown,125.22,minimal,neutral,minimal,False,False,True,False
-77,male,Adidas,grey,124.3,max,neutral,minimal,False,True,True,True
-78,male,Mizuno,ivory,125.19,moderate,stability,minimal,True,False,True,True
-79,male,Asics,grey,100.0,minimal,neutral,max,True,False,True,False
-80,male,New Balance,green,144.99,minimal,stability,minimal,False,False,True,False
-81,male,Adidas,green,123.22,minimal,stability,max,True,False,False,True
-82,female,Hoka,black,107.61,moderate,neutral,max,False,False,True,False
-83,male,New Balance,black,100.0,minimal,neutral,neutral,True,True,False,False
-84,female,Brooks,yellow,105.16,moderate,stability,max,True,False,False,False
-85,male,Hoka,green,141.67,max,neutral,neutral,False,False,True,True
-86,male,Mizuno,green,135.39,moderate,neutral,minimal,True,True,False,False
-87,male,Saucony,orange,139.0,max,neutral,max,True,True,True,True
-88,female,New Balance,green,116.41,moderate,neutral,minimal,True,False,True,True
-89,male,Nike,yellow,107.17,minimal,neutral,neutral,True,True,False,True
-90,male,Adidas,beige,117.12,max,stability,max,True,False,True,True
-91,female,Altra,beige,132.43,moderate,stability,minimal,False,False,True,False
-92,female,Mizuno,beige,114.17,max,neutral,minimal,False,True,False,True
-93,female,Nike,brown,137.75,minimal,neutral,minimal,True,False,False,True
-94,female,Hoka,grey,110.72,moderate,stability,neutral,False,False,True,False
-95,female,Saucony,grey,129.24,moderate,stability,neutral,False,False,True,False
-96,female,New Balance,brown,137.36,moderate,neutral,neutral,True,True,False,False
-97,male,Saucony,ivory,124.28,max,neutral,max,False,False,False,True
-98,male,Nike,grey,124.86,max,neutral,max,False,False,False,True
-99,male,Asics,black,134.33,max,neutral,minimal,True,False,True,True
-100,male,Adidas,red,127.45,moderate,neutral,minimal,True,True,False,False
-101,female,Nike,red,123.24,minimal,stability,minimal,False,False,True,True
-102,male,Adidas,pink,136.67,moderate,stability,max,True,False,True,False
+shoeid,product_name,brand,shoecolor,gender,distance,terrain,price,ecofriendly,stackheight,stability,shoeweight,heeltoedrop,shoe_preference,preferencescore,description,image,link
+1,New Balance Women's FuelCell SuperComp Elite V4 Running Shoe,new_balance,"white,yellow,orange,blue","female,non_binary","medium,max",road,200,no,40,neutral,9.6,6,"carbon_plate,wide_foot",6.525,"The New Balance FuelCell SuperComp Trainer v3 is a high-stack, carbon-plated running shoe built for road training and long distances. Ideal for marathon prep, it combines plush cushioning with responsive propulsion for runners seeking max mileage performance.",https://m.media-amazon.com/images/I/51FbgczLf1L._AC_SY625_.jpg,https://amzn.to/4iNRbp9
+2,HOKA Women's Bondi 9 Sneaker,hoka,"purple,black,white,green,orange,gray","female,non_binary","minimum,medium,max","road, treadmill, track",170,no,33,neutral,8,4,wide_foot,6.954,"The HOKA Women's Bondi 9 Sneaker offers exceptional cushioning and support, featuring a 3D molded collar, structured knit upper with zonal breathability, and Durabrasion rubber for enhanced durability. Ideal for road, treadmill, and track running, it provides a soft, resilient ride for daily miles.",https://m.media-amazon.com/images/I/61gO6xdqY6L._AC_SY625_.jpg,https://amzn.to/3QYNWPy
+3,Brooks Women’s Hyperion Max 2 Neutral Running Shoe,brooks,"white,blue,black","female,non_binary","medium,max",road,180,no,39,neutral,8.5,8,"carbon_plate,wide_foot",6.615,"The Brooks Women's Hyperion Max 2 is a high-performance running shoe featuring nitrogen-infused DNA FLASH v2 cushioning and a SpeedVault Plate for responsive speed. Designed for road, treadmill, and track running, it offers an 8mm drop and weighs approximately 8.5 ounces.",https://m.media-amazon.com/images/I/71CgLTZLKDL._AC_SY625_.jpg,https://amzn.to/4jb3z2f
+4,Saucony Women's Endorphin Pro 4 Running Shoe,saucony,"white,yellow,black,purple,blue","female,non_binary","medium,max",road,224,yes,39.5,neutral,6.5,8,carbon_plate,6.5695,"The Saucony Women's Endorphin Pro 4 is a carbon-plated racing shoe featuring PWRRUN HG and PWRRUN PB foams for a responsive ride. Designed for road and track running, it offers an 8mm drop and weighs approximately 6.5 ounces.",https://m.media-amazon.com/images/I/71CQ3ER42UL._AC_SX625_.jpg,https://amzn.to/4ifQ3tD
+5,ASICS Women's NOVABLAST 5 Running Shoes,asics,"white,blue,yellow,purple,black","female,non_binary","minimum,medium,max","road, treadmill, track",140,yes,40.5,neutral,7.9,8,wide_foot,6.5815,"The ASICS Women's NOVABLAST 5 offers a blend of cushioning and responsiveness, featuring FF BLAST MAX foam and a carbon plate. With a roomier toe box and available in wide sizes, it's designed for comfort across various distances.",https://m.media-amazon.com/images/I/51s7TJI8zrL._AC_SY625_.jpg,https://amzn.to/3Ei3g76
+6,ASICS Women's Gel-Kayano 31 Running Shoes,asics,"black,green,blue,gray,pink,red,orange,beige,white","female,non_binary","minimum,medium,max","road, treadmill, track",165,yes,40,stability,9,10,"wide_foot,carbon_plate",7.265,"The ASICS Gel-Kayano 31 is a high-mileage stability trainer with advanced cushioning, a secure fit, and eco-conscious materials. Perfect for road runners seeking daily comfort and long-run support.",https://m.media-amazon.com/images/I/618M7I-CWVL._AC_SY625_.jpg,https://amzn.to/44jUWhE
+7,HOKA ONE ONE Arahi 7 Womens Shoes,hoka,"black,white,beige,gray,blue","female,non_binary","minimum,medium,max","road, treadmill, track",170,yes,37,stability,8.9,5,"wide_foot,wide_toe_box",6.9,"The HOKA ONE ONE Arahi 7 is a supportive stability shoe featuring J-Frame technology and early-stage Meta-Rocker for smooth transitions. Designed for comfort and durability, it’s perfect for road runners seeking reliable support on longer distances.",https://m.media-amazon.com/images/I/51hGIDTQiDL._AC_SX625_.jpg,https://amzn.to/43Js42e
+8,New Balance womens Fresh Foam X 1080 V14 Running Shoe,new_balance,"black,white,blue,yellow,pink,green,gray,beige","female,non_binary","minimum,medium,max","road, treadmill, track",165,no,38,neutral,8.3,6,"wide_foot,wide_toe_box",7.31,"The New Balance Fresh Foam X 1080 V14 is a premium neutral trainer with a plush Fresh Foam midsole, breathable mesh upper, and wide-foot-friendly fit. Ideal for road runners seeking soft cushioning over any distance.",https://m.media-amazon.com/images/I/51dgTfpYDiL._AC_SY625_.jpg,https://amzn.to/3RgREnP
+9,HOKA ONE ONE Women's Mafate Speed 4 Sneaker,hoka,"blue,green,purple,black,red,gray,pink","female,non_binary","minimum,medium,max",trail,154,yes,33,neutral,9.4,4,none,6.965,"The HOKA Mafate Speed 4 is a rugged trail running shoe built for technical terrain, offering plush cushioning, durable Vibram® Megagrip traction, and eco-conscious construction for long-distance adventures.",https://m.media-amazon.com/images/I/61oAnvxDgGL._AC_SX625_.jpg,https://amzn.to/4cwXviL
+10,On Women's Cloudmonster Sneakers,on,"white,yellow,gray,red,green,black,orange,purple,pink","female,non_binary","minimum,medium,max","road, treadmill, track",175,yes,38,neutral,8.1,6,none,7.48,"The On Women's Cloudmonster delivers max cushioning with Helion Superfoam and a unique rocker design, ideal for daily road miles and long-distance comfort.",https://m.media-amazon.com/images/I/51bbsez76RL._AC_SY625_.jpg,https://amzn.to/4jxHyLw
+11,New Balance Men's FuelCell Supercomp Elite V4 Running Shoe,new_balance,"blue,white,orange","mens,non_binary","medium,max",road,250,no,47,neutral,10.2,4,"carbon_plate,wide_foot",6.637,"The New Balance FuelCell SuperComp Trainer V2 is a high-mileage training shoe featuring FuelCell foam and a carbon fiber plate for a propulsive feel. Designed for road running, it offers a 4mm drop and weighs approximately 10.2 ounces.",https://m.media-amazon.com/images/I/51K1moxHdbL._AC_SY625_.jpg,https://amzn.to/41VljJi
+12,HOKA Men's Bondi 9 Sneaker,hoka,"black,gray,blue,green,orange,white","mens,non_binary","minimum,medium,max","road,treadmill,track",155,no,43,neutral,10.5,5,"wide_foot,wide_toe_box",7.1975,"The Hoka Bondi 9 offers maximum cushioning and support for runners and walkers alike. With a 5mm heel-to-toe drop and weighing approximately 10.5 ounces, it's ideal for long-distance activities on roads and treadmills.",https://m.media-amazon.com/images/I/71zk0omgzEL._AC_SY625_.jpg,https://amzn.to/3QVacKd
+13,Brooks Men’s Hyperion Max 2 Neutral Running Shoe,brooks,"blue,black,white","mens,non_binary","medium,max",road,180,no,35,neutral,7.8,8,"wide_toe_box,carbon_plate",6.513,"The Brooks Men's Hyperion offers a lightweight and responsive ride, featuring nitrogen-infused DNA FLASH foam and a breathable upper. Ideal for road, track, and treadmill running, it provides a 8mm drop and weighs approximately 7.8 ounces.",https://m.media-amazon.com/images/I/71CgLTZLKDL._AC_SY625_.jpg,https://amzn.to/445WsE0
+14,Saucony Men's Endorphin Pro 4 Running Shoe,saucony,"white,yellow,black,purple,blue,green,orange,red","mens,non_binary","medium,max",road,225,yes,39.5,neutral,7.5,8,carbon_plate,6.8185,"Saucony Men's Endorphin Pro 4 Running Shoe – a lightweight, high-performance racing shoe designed for speed, featuring a carbon-fiber plate for propulsion, responsive PWRRUN PB cushioning for maximum energy return, and an engineered mesh upper for breathability and comfort during races.",https://m.media-amazon.com/images/I/71ZmJebQPxL._AC_SX625_.jpg,https://amzn.to/42ep2kg
+15,ASICS Men's NOVABLAST 5 Running Shoes,asics,"black,blue,gray,green,orange,purple","mens,non_binary","minimum,medium,max","road,treadmill,track",140,yes,41.5,neutral,8.8,8,wide_foot,7.144,"The ASICS NOVABLAST 5 is a daily trainer featuring FF BLAST+ ECO cushioning and engineered mesh. Lightweight and eco-conscious, it’s built for comfort and bounce over daily miles, tempos, and long runs.",https://m.media-amazon.com/images/I/61kAFNVlDmL._AC_SY625_.jpg,https://amzn.to/4i5BF6Z
+16,HOKA Mach 6 Mens Shoes,hoka,"black,green,white","mens,non_binary","minimum,medium,max","road,treadmill,track",170,yes,39,neutral,8.1,5,wide_foot,6.854,"HOKA Mach 6 men's running shoes deliver a lightweight, responsive ride with PROFLY+ cushioning for a smooth and energetic stride.",https://m.media-amazon.com/images/I/51TOrItPofL._AC_SX625_.jpg,https://amzn.to/4iNZAZP
+17,ASICS Men's Gel-Kayano 31 Running Shoes,asics,"black,gray,green,white,blue,orange,red","mens,non_binary","minimum,medium,max","road,treadmill,track",165,yes,40,stability,10.7,10,"wide_foot,carbon_plate",7.375,"ASICS Men's Gel-Kayano 31 running shoes provide stable support and plush cushioning, featuring GEL technology and FF BLAST PLUS ECO foam for a smooth, comfortable ride.",https://m.media-amazon.com/images/I/51YUgZeaerL._AC_SY625_.jpg,https://amzn.to/449hC43
+18,HOKA Clifton 9 Men's Running Shoes,hoka,"black,gray,yellow,blue,orange","mens,non_binary","minimum,medium,max","road,treadmill,track",190,no,32.7,neutral,8.7,5,wide_foot,6.92,"HOKA Clifton 9 running shoes offer a lightweight, cushioned ride with a plush midsole and breathable upper for all-day comfort and support.",https://m.media-amazon.com/images/I/61WY5iaXJyL._AC_SX625_.jpg,https://amzn.to/4lfqnQr
+19,New Balance Men's Fresh Foam X 1080 V14,new_balance,"black,white,gray,blue,yellow,green,orange","mens,non_binary","minimum,medium,max","road,treadmill,track",165,no,38,neutral,10.5,6,"wide_foot,wide_toe_box",6.9795,New Balance Men's Fresh Foam X 1080 V14 running shoes feature plush Fresh Foam cushioning and a lightweight design for exceptional comfort and support during long runs.,https://m.media-amazon.com/images/I/51cCCnxBS0L._AC_SY625_.jpg,https://amzn.to/3YiEpGX
+20,"Nike Men's Low-top Running Shoe, 0",nike,"black,white,gray,red,blue,purple,green","mens,non_binary","minimum,medium","road,treadmill,track",92,no,39,neutral,6.6,5,none,6.38,"The Nike Men's Low-top Running Shoe offers breathable engineered mesh and a responsive midsole for daily road runs. Best for 5K to 10K distances, it provides a comfortable neutral ride at an affordable price point.",https://m.media-amazon.com/images/I/718UHZnqIiL._AC_SX695_.jpg,https://amzn.to/42a9Tl2
+21,On Cloudstratus,on,"black,white,blue","mens,non_binary","minimum,medium,max","road,treadmill,track",200,yes,32,neutral,10.7,8,none,6.245,"On Cloudstratus running shoes are designed for maximum comfort and performance, featuring dual CloudTec layers and a responsive midsole for a smooth, cushioned ride.",https://m.media-amazon.com/images/I/61RuMsc5RfL._AC_SX625_.jpg,https://amzn.to/3RmCygJ
+22,HOKA ONE ONE Men's Gaviota 5,hoka,"black,gray,green,white,blue,orange","mens,non_binary","minimum,medium,max","road,treadmill,track",234,yes,40,stability,10.9,6,"wide_foot,wide_toe_box",6.917,"The HOKA Gaviota 5 is a premium stability trainer with plush cushioning, J-Frame+ support, and a smooth ride. Perfect for road runners seeking comfort over long miles with eco-conscious design and max stack height.",https://m.media-amazon.com/images/I/71tPv7FhBLL._AC_SY625_.jpg,https://amzn.to/3G1zVyt
+23,ASICS Unisex METASPEED Edge Paris Running Shoe,asics,"white,blue,red,yellow","female,mens,non_binary","minimum,medium,max","road,treadmill,track",250,yes,39,neutral,6.5,5,carbon_plate,6.4685,"ASICS Unisex METASPEED Edge Paris Running Shoe – a high-performance running shoe designed for speed, featuring a lightweight construction, responsive FlyteFoam Propel technology for energy return, and a carbon-fiber plate for enhanced propulsion and efficiency during races.",https://m.media-amazon.com/images/I/61+ldnVQZFL._AC_SY625_.jpg,https://amzn.to/4ldoXpm
+24,ALTRA Men's Lone Peak 8 Trail Running Shoe,altra,"blue,yellow,beige,green,gray,black","mens,non_binary","minimum,medium,max",trail,120,yes,25,neutral,10.7,0,"wide_foot,wide_toe_box",7.49,"The ALTRA Lone Peak 8 is a zero-drop trail running shoe designed with a foot-shaped toe box, grippy outsole, and cushioned ride for long miles on rugged terrain.",https://m.media-amazon.com/images/I/61y-+y3AYXL._AC_SY625_.jpg,https://amzn.to/4jvUnG8
+25,ALTRA Men's Paradigm 7 Road Running Shoe,altra,"blue,black,white,gray,yellow","mens,non_binary","medium,max","road,treadmill",140,no,30,stability,10.35,0,"wide_foot,wide_toe_box",6.594,"The ALTRA Men's Paradigm 7 is a zero-drop road running shoe offering maximum cushioning, adaptive stability, and a roomy toe box for long-distance comfort.",https://m.media-amazon.com/images/I/71SXfn9R5QL._AC_SY695_.jpg,https://amzn.to/4ihbp9O
+26,ALTRA Women's Paradigm 7 Road Running Shoe,altra,"black,blue,purple,gray,orange,white,green","female,non_binary","medium,max","road,treadmill",170,no,30,stability,8.2,0,"wide_foot,wide_toe_box",6.769,"The ALTRA Women's Paradigm 7 is a zero-drop road running shoe offering maximum cushioning, adaptive stability, and a roomy toe box for long-distance comfort.",https://m.media-amazon.com/images/I/715IgmHc3sL._AC_SY695_.jpg,https://amzn.to/3GrrZX6
+27,Saucony Women's Guide 18 Sneaker,saucony,"pink,white,black,gray,green,yellow,orange,blue","female,non_binary","medium,max","road,treadmill",140,yes,35,stability,8.6,6,wide_foot,6.637,"The Saucony Women's Guide 18 is a stability road running shoe featuring PWRRUN cushioning, CenterPath Technology, and a breathable mesh upper for comfortable, long-distance runs.",https://m.media-amazon.com/images/I/61ieCtGG5QL._AC_SY695_.jpg,https://amzn.to/3YqW0Nh
+28,Saucony Men's Guide 18 Sneaker,saucony,"black,gray,blue,white","mens,non_binary","medium,max","road,treadmill",140,yes,35,stability,9.6,6,wide_foot,6.637,"The Saucony Men's Guide 18 is a stability road running shoe featuring PWRRUN cushioning, CenterPath Technology, and a breathable mesh upper for comfortable, long-distance runs.",https://m.media-amazon.com/images/I/81lK+FfPxOL._AC_SY695_.jpg,https://amzn.to/4lz51xz
+29,ASICS Men's Gel-Trabuco 13 Running Shoes,asics,"beige,blue,green,red,orange,black","mens,non_binary","minimum,medium,max",trail,140,yes,30,stability,11,8,"wide_foot,wide_toe_box",6.545,"ASICS Men's Gel-Trabuco 13 Trail Running Shoes offer a stable and comfortable ride with a wide toe box, durable construction, and versatile performance for various distances and terrains.",https://m.media-amazon.com/images/I/610ILnME4mL._AC_SY500_.jpg,https://amzn.to/42wx8EQ
+30,ASICS Women's Gel-Trabuco 13 Sneaker,asics,"red,black,purple,pink,blue","female,non_binary","minimum,medium,max",trail,140,yes,34.5,stability,10.8,8,"wide_foot,wide_toe_box",6.636,"ASICS Women's Gel-Trabuco 13 trail running shoes featuring a breathable mesh upper, FF BLAST™ PLUS ECO cushioning, and ASICSGRIP™ outsole for enhanced traction on rugged terrains.",https://m.media-amazon.com/images/I/61hYT4pLqoL._AC_SY500_.jpg,https://amzn.to/4cI6nCg
+31,Brooks Men's Glycerin Max Sneaker,brooks,"blue,purple,black,white,beige","mens,non_binary","minimum,medium,max","road,treadmill,track",200,no,32,neutral,10.9,10,none,6.83,The Brooks Glycerin Max Sneaker is designed for road runners seeking plush cushioning and long-lasting comfort for medium to long-distance runs.,https://m.media-amazon.com/images/I/71HmaQwvXnL._AC_SX500_.jpg,https://amzn.to/42jvA28
+32,Brooks Women's Glycerin Max Sneaker,brooks,white,"female,non_binary","minimum,medium,max","road,treadmill,track",200,no,33,neutral,9.4,10,none,6.83,"The Brooks Women's Glycerin Max Sneaker offers exceptional cushioning, support, and durability for runners seeking comfort during long-distance road runs.",https://m.media-amazon.com/images/I/71gO0cqcsTL._AC_SX500_.jpg,https://amzn.to/4jflFkn

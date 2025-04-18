@@ -33,10 +33,10 @@ const determinePreferenceScore = (rating, amountOfReviews, runnerRep, materialQu
 	return parseFloat(preferenceScore.toFixed(4));
 };
 
-const rating = 4.6;
-const amountOfReviews = 24;
-const runnerRep = 9.5;
-const materialQuality = 9;
+const rating = 4.0; // From Amazon
+const amountOfReviews = 51; // From Amazon
+const runnerRep = 7.5; // Salomon is well-regarded in the trail running community for its technical gear
+const materialQuality = 8;
 
 const score = determinePreferenceScore(rating, amountOfReviews, runnerRep, materialQuality);
 console.log("Preference Score:", score);

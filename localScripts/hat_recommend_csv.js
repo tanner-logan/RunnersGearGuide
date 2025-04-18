@@ -1,69 +1,43 @@
-import wixData from "wix-data";
+/*
+hat csv columns
+hatid,product_name,brand,hatcolor,gender,weather,distance,price,allergies,ecofriendly,designpreference,hatfeatures,preferencescore,description,image,link
+*/
 
-/**
- * Main function to get the top three hat IDs based on user answers.
- * @param {Object} userAnswers - The user answers object from the frontend.
- * @returns {Promise<Array>} - A promise that resolves to an array of the top three hat IDs.
- */
-export async function getTopThreeHats(userAnswers) {
-	try {
-		// Load hats data from the Wix 'hats' collection
-		const hatsData = await loadHatsData();
+const fs = require("fs");
+const Papa = require("papaparse");
 
-		// Filter hats based on user answers
-		const filteredHats = filterHatsByUserAnswers(hatsData, userAnswers);
+function loadHatsData(filePath) {
+	return new Promise((resolve, reject) => {
+		fs.readFile(filePath, "utf8", (err, data) => {
+			if (err) {
+				return reject(err);
+			}
 
-		// Score the filtered hats
-		const scoredHats = filteredHats
-			.map((hat) => ({
-				...hat,
-				score: scoreHat(hat, userAnswers, hatsData),
-			}))
-			.sort((a, b) => {
-				if (b.score !== a.score) {
-					return b.score - a.score;
-				}
-				return parseFloat(b.preferencescore) - parseFloat(a.preferencescore);
-			})
-			.slice(0, 3); // Get the top three hats
-
-		// Return the top three hat IDs
-		return scoredHats.map((hat) => hat.hatid);
-	} catch (error) {
-		console.error("Error in getTopThreeHats:", error);
-		return [];
-	}
-}
-
-/**
- * Loads hats data from the Wix 'hats' collection.
- * @returns {Promise<Array>} - A promise that resolves to an array of hat objects.
- */
-async function loadHatsData() {
-	try {
-		const result = await wixData.query("hats").find();
-		return result.items.map((item) => {
-			// Clean up the data by trimming whitespace from all string values
-			Object.keys(item).forEach((key) => {
-				if (typeof item[key] === "string") {
-					item[key] = item[key].trim();
-				}
+			Papa.parse(data, {
+				header: true, // Treat the first row as headers
+				skipEmptyLines: true, // Skip empty rows
+				complete: (results) => {
+					// Clean up the data by trimming whitespace from all string values
+					const cleanedData = results.data.map((row) => {
+						Object.keys(row).forEach((key) => {
+							if (typeof row[key] === "string") {
+								row[key] = row[key].trim();
+							}
+						});
+						return row;
+					});
+					resolve(cleanedData);
+				},
+				error: (error) => {
+					reject(error);
+				},
 			});
-			return item;
 		});
-	} catch (error) {
-		console.error("Error loading hats data:", error);
-		throw error;
-	}
+	});
 }
 
-/**
- * Filters hats based on user answers.
- * @param {Array} hatsData - The array of hat objects.
- * @param {Object} userAnswers - The user answers object.
- * @returns {Array} - The filtered array of hat objects.
- */
 function filterHatsByUserAnswers(hatsData, userAnswers) {
+	// Filter the hats based on userAnswers
 	const matchingHats = hatsData.filter((hat) => {
 		return Object.keys(userAnswers).every((key) => {
 			const userValue = userAnswers[key];
@@ -115,12 +89,11 @@ function filterHatsByUserAnswers(hatsData, userAnswers) {
 		});
 	});
 
-	// Handle cases where fewer than 3 matches are found
-	// if (matchingHats.length >= 3) {
-	// 	console.log("3 or more matches found: ", matchingHats.length);
-	// } else {
-	// 	console.log("Less than 3 matches found");
-	// }
+	if (matchingHats.length >= 3) {
+		console.log("3 or more matches found: ", matchingHats.length);
+	} else {
+		console.log("Less than 3 matches found");
+	}
 
 	return matchingHats.length >= 3
 		? matchingHats
@@ -132,13 +105,6 @@ function filterHatsByUserAnswers(hatsData, userAnswers) {
 		  });
 }
 
-/**
- * Scores a hat based on user answers.
- * @param {Object} hat - The hat object.
- * @param {Object} userAnswers - The user answers object.
- * @param {Array} allHats - The array of all hat objects.
- * @returns {number} - The score for the hat.
- */
 function scoreHat(hat, userAnswers, allHats) {
 	let score = 0;
 
@@ -245,3 +211,43 @@ function scoreHat(hat, userAnswers, allHats) {
 
 	return score;
 }
+
+(async () => {
+	try {
+		const filePath = "./product_data/hats.csv";
+		const hatsData = await loadHatsData(filePath);
+
+		const userAnswers = {
+			brand: ["no_preference"],
+			hatcolor: ["no_preference"],
+			gender: "no_preference",
+			weather: ["no_preference"],
+			distance: ["no_preference"],
+			price: ["max"],
+			allergies: ["no_preference"],
+			ecofriendly: "no_preference",
+			designpreference: ["no_preference"],
+			hatfeatures: ["no_preference"],
+		};
+
+		const result = filterHatsByUserAnswers(hatsData, userAnswers);
+		const scoredHats = result
+			.map((hat) => ({
+				...hat,
+				score: scoreHat(hat, userAnswers, hatsData),
+			}))
+			.sort((a, b) => {
+				if (b.score !== a.score) {
+					return b.score - a.score;
+				}
+				return parseFloat(b.preferencescore) - parseFloat(a.preferencescore);
+			})
+			.slice(0, 3);
+
+		scoredHats.forEach((hat) => {
+			console.log("Scored Hats:", hat);
+		});
+	} catch (error) {
+		console.error("Error:", error);
+	}
+})();

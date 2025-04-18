@@ -1,0 +1,104 @@
+Hat scoring prompt:
+Provide me with some data on the hat I'm going to provide you. Ensure your response is in this javascript formatting below. Rating will be 0/5 stars on Amazon. amountOfReviews will be amount of reviews it has on Amazon. runnerRep will be how accepted the brand is within the running community on a scale of 1/10. materialQuality will be how good the material is specifically for running. fabrics will be a comma separated string that lists the type of materials that are in the item. ecoFriendly will be a true or false on if the items uses sustainable or recycled materials. lastly, provide an image meta description that is one sentence. 
+
+Javascript:
+const rating = 4.6;
+const amountOfReviews = 8032;
+const runnerRep = 8;
+const materialQuality = 9;
+const fabrics = "Wool, Polyester, Spandex";
+const ecoFriendly = true; // Made from renewable, biodegradable Merino wool
+const metaImageDescription = "Charcoal gray cuffed beanie made from 100% Merino wool, offering warmth and breathability for cold-weather activities.";
+
+Product:
+Link:
+
+////////////////////////////////////////////////////////////
+
+Shoe scoring prompt:
+Provide me with some data on the shoes I'm going to provide you. Ensure your response is in this javascript formatting below. Rating will be 0/5 stars on Amazon. amountOfReviews will be amount of reviews it has on Amazon. runnerRep will be how popular the item is among the running community on a scale of 1/10. fitScore is how well the shoe fits and how true to size it is from 1/10. durabilityScore is how durable the shoe is and how long it will last from 1/10. runningBrandScore scores how well-known the company is to the running community specifically. ecoFriendly will be a true or false on if the items uses sustainable or recycled materials. trueFeatures will be a comma separated single string where you include only these values if they are true for the product - wide_foot,wide_toe_box,carbon_plate. terrainUse will be a comma separated single string where you include only these values depending on which are true for the product - trail,road,track,treadmill. to decide which one's are "true" include the ones that the shoes are okay/ideal to run on. stackHeight for the shoe in mm. shoeWeight for the shoe in ounces. heelToToeDrop for the shoe in mm. distance will be a comma separated single string that you'll include only the follow if they're true - minimum,medium,max. these values correlate to half marathon, marathon, and ultras. so essentially what distance races the shoes are ideal for. lastly, provide an image meta description that is one sentence. 
+
+
+Javascript:
+const rating = 4.5; // From Amazon
+const amountOfReviews = 262; // From Amazon
+const runnerRep = 8.7; // Very popular among trail runners and thru-hikers for comfort and foot-shaped design
+const fitScore = 8.8; // True to size with roomy toe box; Altra’s natural fit gets high marks
+const durabilityScore = 8.5; // Great durability for rugged terrain
+const runningBrandScore = 8.8; // Altra is well-known in the trail and zero-drop communities
+
+const ecoFriendly = false; // No specific claims for recycled content
+
+const trueFeatures = "wide_foot,wide_toe_box"; // Known for its roomy fit and wide toe box
+const terrainUse = "trail"; // Built for technical trails, dirt paths, and rocky terrain
+const price = 140; // Price in USD
+const stackHeight = 25; // Approximate heel stack in mm (zero drop)
+const stability = false; // Neutral trail shoe with balanced cushioning
+const shoeWeight = 10.7; // Weight in ounces (men’s size 9)
+const heelToToeDrop = 0; // Classic Altra zero drop
+
+const distance = "minimum,medium,max"; // Suitable for long trail races and backpacking
+
+const metaDescription = "The ALTRA Lone Peak 8 is a zero-drop trail running shoe designed with a foot-shaped toe box, grippy outsole, and cushioned ride for long miles on rugged terrain.";
+
+Product: 
+Link: 
+
+////////////////////////////////////////////////////////////
+
+Bottoms scoring prompt:
+Provide me with some data on the running bottoms I'm going to provide you. Ensure your response is in this javascript formatting below. Rating will be 0/5 stars on Amazon. amountOfReviews will be amount of reviews it has on Amazon. runnerRep will be how popular the item is among the running community on a scale of 1/10. materialQuality will be how good the material is specifically for running. fitScore is how well the shoe fits and how true to size it is from 1/10. trueFeatures will be a comma separated single string where you include only these values if they are true for the product - liner,pockets,thermal,low_rise,mid_rise,high_rise. fabrics should include all materials in the item in a comma separated single string. ecoFriendly will be a true or false on if the items uses sustainable or recycled materials. distance will be a comma separated single string that you'll include only the follow if they're true - minimum,medium,max. these values correlate to half marathon, marathon, and ultras. so essentially what distance races the shoes are ideal for. weather will be a comma separated single string that you'll include only the follow if they're true - hot,humid,cold,windy,rainy. Decide this based on what weather conditions the item is most ideal to use in, so for example if they are thermal, obviously they wouldn't be ideal to use in hot,humid weather so you wouldn't include those in the string. lastly, provide an image meta description that is one sentence. 
+
+Javascript:
+const rating = 4.5; // Based on Amazon average rating
+const amountOfReviews = 6700; // Based on Amazon review count
+const runnerRep = 7.5; // BALEAF is popular for budget-friendly running gear
+const materialQuality = 8.0; // Lightweight, quick-dry fabric with built-in brief
+const fitScore = 8.5; // Athletic fit with a 3" inseam ideal for performance
+
+// Features that are true
+const trueFeatures = "low_rise, liner, pockets"; // Features that are true
+
+const fabrics = "Wool, Polyester, Spandex";
+
+// Recycled materials usage
+const ecoFriendly = false; // No indication of recycled materials used
+
+const weather = "hot,humid,cold,windy,rainy";
+const distance = "minimum,medium,max"; // Suitable for long trail races and backpacking
+
+const metaImageDescription = "BALEAF Men's 3-inch running shorts in black with low-rise fit, breathable quick-dry fabric, built-in brief liner, and side zipper pockets. Designed for gym workouts and daily running.";
+
+Product: 
+Link: 
+
+////////////////////////////////////////////////////////////
+
+Tops scoring prompt:
+Provide me with some data on the running top I'm going to provide you. Ensure your response is in this javascript formatting below. Rating will be 0/5 stars on Amazon. amountOfReviews will be amount of reviews it has on Amazon. runnerRep will be how popular the item is among the running community on a scale of 1/10. materialQuality will be how good the material is specifically for running. fitScore is how well the shoe fits and how true to size it is from 1/10. trueFeatures will be a comma separated single string where you include only these values if they are true for the product - lightweight,sun_protection,quick_dry,reflective_details,anti_odor,built_in_bra. topLength will be a comma separated single string that you'll include only the follow if they're true - hip_length,long,crop. fabrics should include all materials in the item in a comma separated single string. ecoFriendly will be a true or false on if the items uses sustainable or recycled materials. distance will be a comma separated single string that you'll include only the follow if they're true - minimum,medium,max. these values correlate to half marathon, marathon, and ultras. so essentially what distance races the shoes are ideal for. weather will be a comma separated single string that you'll include only the follow if they're true - hot,humid,cold,windy,rainy. Decide this based on what weather conditions the item is most ideal to use in, so for example if they are thermal, obviously they wouldn't be ideal to use in hot,humid weather so you wouldn't include those in the string. lastly, provide an image meta description that is one sentence. 
+
+Javascript:
+const rating = 4.6; // Based on Amazon average rating
+const amountOfReviews = 32; // Based on Amazon review count (no commas per your request)
+const runnerRep = 8.0; // PUMA is generally well-accepted in the running community for quality running apparel
+const materialQuality = 8.5; // Made with 100% polyester for lightweight comfort and moisture-wicking
+const fitScore = 8.0; // Regular fit designed for a comfortable range of motion
+const hasReflectivity = true; // No reflective features noted
+
+const topLength = "hip_length"
+
+// Features that are true
+const trueFeatures = "low_rise, liner, pockets"; // Features that are true
+
+const fabrics = "Wool, Polyester, Spandex";
+
+// Recycled materials usage
+const ecoFriendly = false; // No indication of recycled materials used
+
+const weather = "hot,humid,cold,windy,rainy";
+const distance = "minimum,medium,max"; // Suitable for long trail races and backpacking
+
+const metaImageDescription = "BALEAF Men's 3-inch running shorts in black with low-rise fit, breathable quick-dry fabric, built-in brief liner, and side zipper pockets. Designed for gym workouts and daily running.";
+
+Product: 
+Link: 

@@ -18,32 +18,34 @@ export function saveToDatabase(userAnswers) {
 		hatfeatures: userAnswers.hatfeatures.join(","),
 		includetop: userAnswers.includetop,
 		topcolor: userAnswers.topcolor.join(","),
-		topfit: userAnswers.topfit.join(","),
-		topfeatures: userAnswers.topfeatures.join(","),
-		shortlongsleeves: userAnswers.shortlongsleeves,
+		top_length: userAnswers.top_length.join(","),
+		top_sleeves: userAnswers.top_sleeves.join(","),
+		top_preference: userAnswers.top_preference.join(","),
 		includebottom: userAnswers.includebottom,
 		bottomcolor: userAnswers.bottomcolor.join(","),
-		pockets: userAnswers.pockets,
 		typebottoms: userAnswers.typebottoms.join(","),
-		liner: userAnswers.liner,
-		inseam: userAnswers.inseam,
-		thermals: userAnswers.thermals,
-		highwaisted: userAnswers.highwaisted,
+		inseam: userAnswers.inseam.join(","),
+		bottom_preference: userAnswers.bottom_preference.join(","),
 		includeshoes: userAnswers.includeshoes,
 		shoecolor: userAnswers.shoecolor.join(","),
 		stackheight: userAnswers.stackheight.join(","),
 		stability: userAnswers.stability,
 		shoeweight: userAnswers.shoeweight.join(","),
 		heeltoedrop: userAnswers.heeltoedrop.join(","),
-		shoepreferences: userAnswers.shoepreferences.join(","),
-		hatid: userAnswers.hatid,
-		topid: userAnswers.topid,
-		bottomid: userAnswers.bottomid,
-		shoeid: userAnswers.shoeid,
+		shoe_preference: userAnswers.shoe_preference.join(","),
+		hatid: userAnswers.hatid || "",
+		topid: userAnswers.topid || "",
+		bottomid: userAnswers.bottomid || "",
+		shoeid: userAnswers.shoeid || "",
 		userliked: userAnswers.userliked,
 	};
 
-	wixData.insert("UserResponses", toInsert).catch((err) => {
-		console.error("Error saving to database:", err);
-	});
+	wixData
+		.insert("UserResponses", toInsert)
+		.then((results) => {
+			//console.log("Data saved to database:", results);
+		})
+		.catch((err) => {
+			console.error("Error saving to database:", err);
+		});
 }
