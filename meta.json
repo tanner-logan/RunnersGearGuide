@@ -1,0 +1,99 @@
+{
+	"@context": "https://schema.org",
+	"@type": "Article",
+	"headline": "Top 5 Women's Biker Shorts for Running in 2025",
+	"author": {
+		"@type": "Person",
+		"name": "Runners Gear Guide",
+		"url": "https://www.runnersgearguide.com/about-us"
+	},
+	"publisher": {
+		"@type": "Organization",
+		"name": "Runners Gear Guide",
+		"logo": {
+			"@type": "ImageObject",
+			"url": "https://static.wixstatic.com/media/8f1519_915b631337684af394b8a49747345e03~mv2.png/v1/fill/w_360,h_54,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/mockup%20v7-%20purple%20white%20stroke.png"
+		}
+	},
+	"datePublished": "2025-05-27T00:00:00+00:00",
+	"dateModified": "2025-05-27T00:00:00+00:00",
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "https://www.runnersgearguide.com/womens-running-apparel/top-5-womens-biker-shorts-2025"
+	},
+	"description": "Discover the top 5 women’s biker shorts for running in 2025 - featuring high-performance, spandex-based options designed for comfort, support, and storage on the run. Whether you prefer long miles or quick workouts, these tight-fitting shorts deliver breathable fabrics, no-slip waistbands, and functional pockets that runners actually use.",
+	"articleSection": "Women's Running Apparel",
+	"image": "https://static.wixstatic.com/media/nsplsh_3f6091d3c5134fb6936a8742d6c929cc~mv2.jpg/v1/crop/x_0,y_225,w_5491,h_2843/fill/w_1278,h_662,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20by%20Venti%20Views.jpg",
+	"isPartOf": {
+		"@type": "WebSite",
+		"name": "Runners Gear Guide",
+		"url": "https://www.runnersgearguide.com"
+	},
+	"about": "Women's Biker Shorts for Running",
+	"keywords": [
+		"running shorts",
+		"women's running shorts 2025",
+		"best running shorts",
+		"top 5 running shorts",
+		"top running shorts 2025",
+		"best running shorts 2025",
+		"top rated womens running shorts",
+		"best distance running shorts",
+		"women's biker shorts for running",
+		"women's spandex shorts",
+		"best women's biker shorts",
+		"running shorts with pockets",
+		"high waisted running shorts"
+	],
+	"hasPart": [
+		{
+			"@type": "ItemList",
+			"name": "Top 5 Women's Biker Shorts for Running in 2025",
+			"description": "A curated list of the best women's biker shorts for running in 2025, reviewed for performance, comfort, and breathability.",
+			"itemListOrder": "https://schema.org/ItemListOrderDescending",
+			"numberOfItems": 5,
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"name": "Brooks Spark 8' Short Tights",
+					"url": "https://amzn.to/4keKjSE",
+					"image": "https://m.media-amazon.com/images/I/615K0gVyC6L._AC_SX522_.jpg",
+					"description": "Brooks Women's Spark 8-inch Short Tights in black, featuring a high-rise fit, breathable recycled fabric, built-in liner, and multiple pockets for secure storage during runs."
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"name": "CRZ YOGA Biker Shorts with Pockets 6'",
+					"url": "https://amzn.to/3HdCJJ7",
+					"image": "https://m.media-amazon.com/images/I/71belqshgxL._AC_SX569_.jpg",
+					"description": "CRZ YOGA Women's Naked Feeling 6-inch high-waisted biker shorts in black, featuring a seamless waistband and side pockets, designed for comfort during yoga and gym workouts."
+				},
+				{
+					"@type": "ListItem",
+					"position": 3,
+					"name": "baleaf Biker Shorts High Waist",
+					"url": "https://amzn.to/4dAVoLe",
+					"image": "https://m.media-amazon.com/images/I/61sDyU6zQqL._AC_SY741_.jpg",
+					"description": "BALEAF Women's high-waisted biker shorts in black, featuring side pockets and a comfortable fit, designed for running and gym workouts."
+				},
+				{
+					"@type": "ListItem",
+					"position": 4,
+					"name": "Sunzel No Front Seam Biker Shorts",
+					"url": "https://amzn.to/3Z3cHi0",
+					"image": "https://m.media-amazon.com/images/I/71xxwPJuGuL._AC_SX679_.jpg",
+					"description": "Sunzel Women's No Front Seam high-waisted biker shorts in black, featuring side pockets and a comfortable fit, designed for yoga and gym workouts."
+				},
+				{
+					"@type": "ListItem",
+					"position": 5,
+					"name": "THE GYM PEOPLE High Waist Workout Shorts",
+					"url": "https://amzn.to/3SSG7M7",
+					"image": "https://m.media-amazon.com/images/I/51fHtX-w-sL._AC_SX679_.jpg",
+					"description": "THE GYM PEOPLE Women's High Waist Workout Shorts in black, featuring side pockets and a comfortable fit, designed for yoga and gym workouts."
+				}
+			]
+		}
+	]
+}

@@ -21,10 +21,10 @@ function calculateShoePreferenceScore(rating, amountOfReviews, runnerRep, fitSco
 
 // Example usage
 const rating = 4.5; // From Amazon
-const amountOfReviews = 30; // From Amazon
-const runnerRep = 8.2; // Popular among road runners for its plush cushioning and comfort
-const fitScore = 8.5; // True to size with a comfortable fit for most foot shapes
-const durabilityScore = 8.0; // Known for lasting through long-distance training
+const amountOfReviews = 262; // From Amazon
+const runnerRep = 8.7; // Popular among runners seeking lightweight stability
+const fitScore = 8.5; // True to size with a snug heel and midfoot
+const durabilityScore = 8.5; // Durable outsole and midsole materials
 const runningBrandScore = 9.0;
 
 const preferenceScore = calculateShoePreferenceScore(rating, amountOfReviews, runnerRep, fitScore, durabilityScore, runningBrandScore);

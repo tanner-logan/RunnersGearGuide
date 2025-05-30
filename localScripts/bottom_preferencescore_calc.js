@@ -33,11 +33,11 @@ const determineBottomPreferenceScore = (rating, amountOfReviews, runnerRep, mate
 	return parseFloat(preferenceScore.toFixed(4));
 };
 
-const rating = 4.5; // Based on Amazon average rating
-const amountOfReviews = 112; // Based on Amazon review count
-const runnerRep = 7.0; // New Balance gear is well-liked, especially among everyday runners
-const materialQuality = 8.0; // Lightweight, quick-drying with solid construction for warm-weather running
-const fitScore = 8.5;
+const rating = 4.5; // Based on Amazon customer reviews
+const amountOfReviews = 10640; // Total number of reviews on Amazon
+const runnerRep = 6.5; // Popular among fitness enthusiasts; moderately favored by runners
+const materialQuality = 8.0; // Buttery-soft, stretchy fabric with decent compression and moisture-wicking properties
+const fitScore = 8.0;
 
 const bottomScore = determineBottomPreferenceScore(rating, amountOfReviews, runnerRep, materialQuality, fitScore);
 

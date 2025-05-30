@@ -95,7 +95,7 @@ function filterHatsByUserAnswers(hatsData, userAnswers) {
 		console.log("Less than 3 matches found");
 	}
 
-	return matchingHats.length >= 3
+	return matchingHats.length >= 5
 		? matchingHats
 		: hatsData.filter((hat) => {
 				if (userAnswers.gender !== "no_preference") {
@@ -219,14 +219,14 @@ function scoreHat(hat, userAnswers, allHats) {
 
 		const userAnswers = {
 			brand: ["no_preference"],
-			hatcolor: ["no_preference"],
-			gender: "no_preference",
-			weather: ["no_preference"],
-			distance: ["no_preference"],
-			price: ["max"],
+			hatcolor: ["black"],
+			gender: "mens",
+			weather: ["hot"],
+			distance: ["minimal"],
+			price: ["no_preference"],
 			allergies: ["no_preference"],
 			ecofriendly: "no_preference",
-			designpreference: ["no_preference"],
+			designpreference: ["bold"],
 			hatfeatures: ["no_preference"],
 		};
 
@@ -242,12 +242,20 @@ function scoreHat(hat, userAnswers, allHats) {
 				}
 				return parseFloat(b.preferencescore) - parseFloat(a.preferencescore);
 			})
-			.slice(0, 3);
+			.slice(0, 5);
 
-		scoredHats.forEach((hat) => {
+		// Randomly select 3 hats from the top 5
+		const randomThreeHats = getRandomItems(scoredHats, 3);
+
+		randomThreeHats.forEach((hat) => {
 			console.log("Scored Hats:", hat);
 		});
 	} catch (error) {
 		console.error("Error:", error);
 	}
 })();
+
+function getRandomItems(items, count) {
+	const shuffled = [...items].sort(() => 0.5 - Math.random()); // Shuffle the array
+	return shuffled.slice(0, count); // Return the first `count` items
+}

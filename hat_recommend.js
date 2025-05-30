@@ -1,11 +1,12 @@
 import wixData from "wix-data";
+import { getRandomItems } from "public/helpers/helperFunctions";
 
 /**
  * Main function to get the top three hat IDs based on user answers.
  * @param {Object} userAnswers - The user answers object from the frontend.
  * @returns {Promise<Array>} - A promise that resolves to an array of the top three hat IDs.
  */
-export async function getTopThreeHats(userAnswers) {
+export async function getTopThreeHats(userAnswers, simpleFlow) {
 	try {
 		// Load hats data from the Wix 'hats' collection
 		const hatsData = await loadHatsData();
@@ -24,11 +25,16 @@ export async function getTopThreeHats(userAnswers) {
 					return b.score - a.score;
 				}
 				return parseFloat(b.preferencescore) - parseFloat(a.preferencescore);
-			})
-			.slice(0, 3); // Get the top three hats
+			});
+
+		// Determine how many hats to slice based on simpleFlow
+		const topHats = simpleFlow ? scoredHats.slice(0, 15) : scoredHats.slice(0, 5);
+
+		// Randomly select 3 hats from the sliced top hats
+		const randomThreeHats = getRandomItems(topHats, 3);
 
 		// Return the top three hat IDs
-		return scoredHats.map((hat) => hat.hatid);
+		return randomThreeHats.map((hat) => hat.hatid);
 	} catch (error) {
 		console.error("Error in getTopThreeHats:", error);
 		return [];
@@ -116,13 +122,13 @@ function filterHatsByUserAnswers(hatsData, userAnswers) {
 	});
 
 	// Handle cases where fewer than 3 matches are found
-	// if (matchingHats.length >= 3) {
-	// 	console.log("3 or more matches found: ", matchingHats.length);
+	// if (matchingHats.length >= 5) {
+	// 	console.log("5 or more hat matches found: ", matchingHats.length);
 	// } else {
-	// 	console.log("Less than 3 matches found");
+	// 	console.log("Less than 5 hat matches found");
 	// }
 
-	return matchingHats.length >= 3
+	return matchingHats.length >= 5
 		? matchingHats
 		: hatsData.filter((hat) => {
 				if (userAnswers.gender !== "no_preference") {

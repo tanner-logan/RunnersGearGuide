@@ -47,12 +47,12 @@ const hasReflectivity = false;
 */
 
 // Example usage
-const rating = 4.4; // Based on Amazon average rating (assumed as no rating information provided)
-const amountOfReviews = 500; // Based on Amazon review count (assumed as no review count provided)
-const runnerRep = 7.5; // ASICS is a well-known and trusted brand in the running community
-const materialQuality = 7.0; // Lightweight fabric designed for comfort during athletic use
-const fitScore = 7.5; // Regular fit designed to be comfortable and allow movement
-const hasReflectivity = false; // No reflective details noted
+const rating = 4.5; // Based on aggregated customer reviews
+const amountOfReviews = 18; // Based on review count from Zappos
+const runnerRep = 8.5; // Well-regarded among runners for comfort and breathability
+const materialQuality = 8.5; // Lightweight, breathable mesh with NB ICEx technology
+const fitScore = 8.0;
+const hasReflectivity = true; // No reflective details noted
 
 const score = determineShirtPreferenceScore(rating, amountOfReviews, runnerRep, materialQuality, fitScore, hasReflectivity);
 

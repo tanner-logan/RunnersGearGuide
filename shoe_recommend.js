@@ -1,11 +1,12 @@
 import wixData from "wix-data";
+import { getRandomItems } from "public/helpers/helperFunctions";
 
 /**
  * Main function to get the top three shoe IDs based on user answers.
  * @param {Object} userAnswers - The user answers object from the frontend.
  * @returns {Promise<Array>} - A promise that resolves to an array of the top three shoe IDs.
  */
-export async function getTopThreeShoes(userAnswers) {
+export async function getTopThreeShoes(userAnswers, simpleFlow) {
 	try {
 		// Load shoes data from the Wix 'shoes' collection
 		const shoesData = await loadShoesData();
@@ -24,11 +25,15 @@ export async function getTopThreeShoes(userAnswers) {
 					return b.score - a.score;
 				}
 				return parseFloat(b.preferencescore) - parseFloat(a.preferencescore);
-			})
-			.slice(0, 3); // Get the top three shoes
+			});
+
+		const topShoes = simpleFlow ? scoredShoes.slice(0, 15) : scoredShoes.slice(0, 5);
+
+		// Randomly select 3 hats from the top 5
+		const randomThreeShoes = getRandomItems(topShoes, 3);
 
 		// Return the top three shoe IDs
-		return scoredShoes.map((shoe) => shoe.shoeid);
+		return randomThreeShoes.map((shoe) => shoe.shoeid);
 	} catch (error) {
 		console.error("Error in getTopThreeShoes:", error);
 		return [];
@@ -119,13 +124,13 @@ function filterShoesByUserAnswers(shoesData, userAnswers) {
 	});
 
 	// Handle cases where fewer than 3 matches are found
-	// if (matchingShoes.length >= 3) {
-	// 	console.log("3 or more matches found: ", matchingShoes.length);
+	// if (matchingShoes.length >= 5) {
+	// 	console.log("5 or more matches found: ", matchingShoes.length);
 	// } else {
-	// 	console.log("Less than 3 matches found");
+	// 	console.log("Less than 5 matches found");
 	// }
 
-	return matchingShoes.length >= 3
+	return matchingShoes.length >= 5
 		? matchingShoes
 		: shoesData.filter((shoe) => {
 				if (userAnswers.gender !== "no_preference") {

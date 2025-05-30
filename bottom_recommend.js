@@ -1,11 +1,12 @@
 import wixData from "wix-data";
+import { getRandomItems } from "public/helpers/helperFunctions";
 
 /**
  * Main function to get the top three bottom IDs based on user answers.
  * @param {Object} userAnswers - The user answers object from the frontend.
  * @returns {Promise<Array>} - A promise that resolves to an array of the top three bottom IDs.
  */
-export async function getTopThreeBottoms(userAnswers) {
+export async function getTopThreeBottoms(userAnswers, simpleFlow) {
 	try {
 		// Load bottoms data from the Wix 'bottoms' collection
 		const bottomsData = await loadBottomsData();
@@ -24,11 +25,15 @@ export async function getTopThreeBottoms(userAnswers) {
 					return b.score - a.score;
 				}
 				return parseFloat(b.preferencescore) - parseFloat(a.preferencescore);
-			})
-			.slice(0, 3); // Get the top three bottoms
+			});
+
+		const topBottoms = simpleFlow ? scoredBottoms.slice(0, 15) : scoredBottoms.slice(0, 5);
+
+		// Randomly select 3 hats from the top 5
+		const randomThreeBottoms = getRandomItems(topBottoms, 3);
 
 		// Return the top three bottom IDs
-		return scoredBottoms.map((bottom) => bottom.bottomid);
+		return randomThreeBottoms.map((bottom) => bottom.bottomid);
 	} catch (error) {
 		console.error("Error in getTopThreeBottoms:", error);
 		return [];
@@ -131,13 +136,13 @@ function filterBottomsByUserAnswers(bottomsData, userAnswers) {
 	});
 
 	// Handle cases where fewer than 3 matches are found
-	// if (matchingBottoms.length >= 3) {
-	// 	console.log("3 or more matches found: ", matchingBottoms.length);
+	// if (matchingBottoms.length >= 5) {
+	// 	console.log("5 or more matches found: ", matchingBottoms.length);
 	// } else {
-	// 	console.log("Less than 3 matches found");
+	// 	console.log("Less than 5 matches found");
 	// }
 
-	return matchingBottoms.length >= 3
+	return matchingBottoms.length >= 5
 		? matchingBottoms
 		: bottomsData.filter((bottom) => {
 				if (userAnswers.gender !== "no_preference") {

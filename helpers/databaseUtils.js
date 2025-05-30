@@ -38,6 +38,7 @@ export function saveToDatabase(userAnswers) {
 		bottomid: userAnswers.bottomid || "",
 		shoeid: userAnswers.shoeid || "",
 		userliked: userAnswers.userliked,
+		flow: userAnswers.flow,
 	};
 
 	wixData
